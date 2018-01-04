@@ -1,0 +1,284 @@
+/**
+ * Booked Plugin
+ */
+
+body.valeo table.booked-calendar {
+    border-bottom: none;
+}
+
+body.valeo table.booked-calendar td {
+    height: 80px !important;
+}
+
+body.valeo table.booked-calendar td > span {
+    line-height: 79px !important;
+}
+
+body.valeo table.booked-calendar td {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+body.valeo table.booked-calendar tr.days th {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5715;
+    text-transform: uppercase;
+    padding-top: 14px;
+    padding-bottom: 13px;
+}
+
+body.valeo table.booked-calendar thead tr:first-child th {
+    padding-top: 0;
+    padding-bottom: 28px;
+    height: 76px;
+}
+
+body.valeo .calendarSavingState,
+body.valeo table.booked-calendar thead th .monthName {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 35px;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1.0286;
+    text-transform: uppercase;
+}
+
+body.valeo table.booked-calendar th .monthName a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    top: -5px;
+}
+
+body.valeo table.booked-calendar th .monthName a {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+body.valeo table.booked-calendar th .monthName a:hover {
+    color: rgba(255, 255, 255, 0.90);
+}
+
+body.valeo table.booked-calendar tr.entryBlock td {
+    padding: 27px 40px 52px 40px;
+}
+
+body.valeo table.booked-calendar .booked-appt-list {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list h2 {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 25px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 28px;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot {
+    border-color: #3c3d41;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-time {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.1429;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .spots-available {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 2.1429;
+    text-transform: none;
+    float: right;
+    width: 50%;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-time {
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 0;
+}
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people {
+    height: 60px;
+    padding-top: 10px;
+    padding-right: 0;
+}
+
+body.valeo table.booked-calendar button {
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button,
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button:hover {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.002em;
+    border: none;
+}
+
+body.valeo table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+body.valeo .booked-calendar .booked-appt-list .timeslot .timeslot-people button {
+    position: relative;
+    height: 50px;
+    border-radius: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot:last-child {
+    margin-bottom: 0;
+}
+
+/**/
+/**/
+/**/
+
+body.valeo table.booked-calendar td {
+    border-color: #c1d8dd;
+}
+
+body.valeo table.booked-calendar td:first-child {
+    border-left-color: #c1d8dd;
+}
+
+body.valeo table.booked-calendar td:hover .date span {
+    background-color: #4e8dbd !important;
+    color: #ffffff !important;
+}
+
+body.valeo table.booked-calendar {
+    background: transparent !important;
+}
+
+body.valeo table.booked-calendar td.today:hover .date span {
+    background-color: #4e8dbd !important;
+}
+
+body.valeo table.booked-calendar td.today .date span{
+    border-color: #4e8dbd !important;
+}
+
+body.valeo table.booked-calendar thead,
+body.valeo table.booked-calendar tr.week td.active .date .number {
+    background: transparent !important;
+}
+
+body.valeo table.booked-calendar td .date .number {
+    font-size: 17px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #88adb9;
+}
+
+body.valeo table.booked-calendar thead th {
+    border: none !important;
+    background: transparent !important;
+    color: #3d6889 !important;
+}
+
+body.valeo table.booked-calendar thead th .page-right,
+body.valeo table.booked-calendar thead th .page-left {
+    font-size: 17px;
+    font-size: 1.7rem;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    line-height: 50px;
+    border-radius: 2px;
+    border: solid 1px #c1d8dd;
+}
+
+body.valeo table.booked-calendar thead th .page-right {right: 0 !important;}
+body.valeo table.booked-calendar thead th .page-left {left: 0 !important;}
+
+body.valeo table.booked-calendar thead th .page-right .fa:before {content: '\f0da' !important;}
+body.valeo table.booked-calendar thead th .page-left .fa:before {content: '\f0d9' !important;}
+
+body.valeo table.booked-calendar thead th .page-right,
+body.valeo table.booked-calendar thead th .page-left {
+    color: #9bbbc5 !important;
+}
+body.valeo table.booked-calendar tr.days {
+    background-color: #4e8dbd !important;
+}
+body.valeo table.booked-calendar tr.days th {
+    border-color: #c1d8dd !important;
+    border-bottom: solid 1px #c1d8dd !important;
+    background-color: #4e8dbd !important;
+    color: #ffffff !important;
+}
+body.valeo table.booked-calendar td.prev-date .date,
+body.valeo table.booked-calendar td.prev-date:hover .date,
+body.valeo table.booked-calendar td.prev-date:hover .date span {
+    background-color: #ffffff !important;
+    color: #565a5e !important;
+}
+body.valeo table.booked-calendar .booked-appt-list,
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot:hover,
+body.valeo table.booked-calendar tr.entryBlock td {
+    background-color: #4e8dbd !important;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list h2,
+body.valeo .booked-calendar-wrap .booked-appt-list h2 strong {
+    color: #ffffff !important;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot {
+    border-top: solid 1px rgba(255, 255, 255, 0.25);
+}
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot:last-child {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.25);
+}
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-time {
+    color: #ffffff;
+}
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .spots-available {
+    color: #ffffff !important;
+}
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .spots-available.empty {
+    color: #88adb9 !important;
+}
+
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-time i.fa {
+    font-size: 19px;
+    margin-right: 5px;
+    color: #ffffff !important;
+}
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-time i.fa:before {
+    font-family: 'rt-icons-4' !important;
+    font-size: 14px;
+    font-size: 1.4rem;
+    content: "\e6a9";
+    color: #6ea6cd;
+}
+
+body.valeo table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+body.valeo .booked-calendar .booked-appt-list .timeslot .timeslot-people button {
+    background: #ffffff !important;
+    color: #4e8dbd !important;
+}
+body.valeo table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+body.valeo .booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover {
+    background: #171717 !important;
+}
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button[disabled],
+body.valeo .booked-calendar-wrap .booked-appt-list .timeslot .timeslot-people button[disabled]:hover {
+    background: #3d6889 !important;
+    color: #88adb9 !important;
+}
+
+@media (max-width: 721px) {
+    body table.booked-calendar tr.entryBlock td {
+        height: auto !important;
+    }
+}

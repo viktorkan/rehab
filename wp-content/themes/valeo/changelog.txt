@@ -1,0 +1,55 @@
+Version 1.2.14 - May 22, 2017
+
+* Customizing -> Site Settings -> Contacts: fixed broken html and custom formatting in live preview when change option data
+
+Version 1.2.13 - Apr 24, 2017
+
+* Customizing -> Site Settings -> Footer Socials: fixed icons styles
+* fixed team member social icons align
+
+Version 1.2.11 - Mar 27, 2017                                             [released]
+
++ repacked demo-content: dummy demo images replaced to blurred images
+
+Version 1.2.10 - Mar 23, 2017
+
+- re-packed demo-content: removed unused images
+
+* updated demo-content: syncing widgets options between parent and child theme
+
+Version 1.2.8 - Mar 21, 2017
+
++ included 'Envato Market' plugin as recommended to the theme package. WordPress will periodically check for updates for your theme
+
+* fixed behavior of Customizer options
+* updated Child Theme: resolved issue with twice included parent stylesheet (by @import in child stylesheet)
+
+Version 1.2.5 - Mar 20, 2017
+
+- removed auto fill 'Excerpt' field on publish Post
+
+* resolved issue with hide extra elements in Main menu
+* resolved issue with different header designe styles
+* fixed duplicate Main menu items in mobile menu
+* minor style fixes
+
+Version 1.1.8 - Mar 07, 2017
+
+* fixed Customizer width
+* improved Customizer Socials Share section styles
+* fixed Socials Share links on Post Page
++ added Youtube social icon and Customizer setting to Header and Footer section
+
+Version 1.1.4 - Janury 27, 2017
++ applied more softly a menu appear
+* optimized preloader
+* menu extra elements: resolved issue with absent 'more-bar' when resize window
+
+Version 1.1.1 - Janury 25, 2017
+* resolved issue with 'Main Menu': it should be wide when checkbox 'Hide Header Social icons' is checked
+
+Version 1.1 - November 9, 2016
+* ьinor fixes and improvements
+
+Version 1.0.5 - October 27, 2016
+* Initial Release

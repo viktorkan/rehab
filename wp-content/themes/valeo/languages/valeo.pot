@@ -1,0 +1,2519 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Valeo\n"
+"POT-Creation-Date: 2017-05-22 17:43+0300\n"
+"PO-Revision-Date: 2016-10-27 12:15+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:12 archive.php:18
+#: framework-customizations/extensions/portfolio/views/archive.php:42
+#: framework-customizations/extensions/portfolio/views/single.php:14
+#: framework-customizations/extensions/services/views/archive.php:24
+#: framework-customizations/extensions/services/views/single.php:19 image.php:9
+#: inc/mods/woocommerce-bridge/woocommerce-bridge.php:90 index.php:17
+#: page-wo-sidebar.php:24 page.php:22 search.php:9 single.php:11
+msgid "Skip to content"
+msgstr ""
+
+#: 404.php:36
+msgid "Oops, page not found!"
+msgstr ""
+
+#: 404.php:42 404.php:45 404.php:49
+msgid "You can search what interested:"
+msgstr ""
+
+#: 404.php:48
+msgid ""
+"The page you are looking for does not exist; it may have been moved, or "
+"removed altogether. You might want to try the search function. "
+"Alternatively, return to the front page."
+msgstr ""
+
+#: 404.php:56
+msgid "or"
+msgstr ""
+
+#: 404.php:59 404.php:60
+msgid "Go to Home"
+msgstr ""
+
+#: archive.php:77 comments.php:53 index.php:154 search.php:55
+msgid "PREV"
+msgstr ""
+
+#: archive.php:78 comments.php:54 index.php:155 search.php:56
+msgid "NEXT"
+msgstr ""
+
+#: archive.php:79 image.php:65 index.php:156 partials/content-audio.php:75
+#: partials/content-chat.php:146 partials/content-gallery.php:67
+#: partials/content-image.php:49 partials/content-page.php:16
+#: partials/content-video.php:88 partials/content.php:157 search.php:57
+msgid "Page"
+msgstr ""
+
+#: author-bio.php:27
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:78
+msgid "Full Name"
+msgstr ""
+
+#: comments.php:86
+msgid "Email Address"
+msgstr ""
+
+#: comments.php:94
+msgid "Website"
+msgstr ""
+
+#: comments.php:107
+msgid " "
+msgstr ""
+
+#: comments.php:108
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:109
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:110
+msgid "Send Comment"
+msgstr ""
+
+#: comments.php:115
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:121
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:131
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: demo-content/valeo-demo-colorized/manifest.php:7
+msgid "Valeo Demo Colorized"
+msgstr ""
+
+#: demo-content/valeo-demo/manifest.php:7
+msgid "Valeo Demo"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:15
+msgid "Form Fields"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:39
+msgid "Settings"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:42
+msgid "Options"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:53
+msgid "Subject Message"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:54
+msgid "This text will be used as subject message for the email"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:55
+msgid "New message"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:64
+msgid "Submit Button"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:65
+msgid "This text will appear in submit button"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:66
+msgid "Send"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:75
+msgid "Success Message"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:76
+msgid "This text will be displayed when the form will successfully send"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:77
+msgid "Message sent!"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:83
+msgid "Failure Message"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:84
+msgid "This text will be displayed when the form will fail to be sent"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:85
+msgid "Oops something went wrong."
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:94
+msgid "Email To"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:95
+msgid "We recommend you to use an email that you verify often"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:96
+msgid "The form will be sent to this email address."
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:102
+msgid "Form Type"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:105
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:45
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:33
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:56
+msgid "Type 1"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:106
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:46
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:34
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:57
+msgid "Type 2"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:107
+msgid "Type 3"
+msgstr ""
+
+#: framework-customizations/extensions/forms/extensions/contact-forms/shortcodes/contact-form/options.php:113
+msgid "Mailer"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:18
+msgid "Add an Email field"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:22
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:49
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:79
+msgid "Email"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:50
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:77
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:51
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:77
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:50
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:77
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:48
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:75
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:49
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:75
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:58
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:153
+msgid "Label"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:51
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:53
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:51
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:49
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:53
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:59
+msgid "Toggle mandatory field"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:52
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:54
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:52
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:50
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:50
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:60
+#: inc/template-tags.php:469
+msgid "Edit"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:53
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:55
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:53
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:51
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:51
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:61
+msgid "Delete"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:54
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:52
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:54
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:52
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:52
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:62
+msgid "Edit Label"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:78
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:78
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:78
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:76
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:76
+msgid "Enter field label (it will be displayed on the web site)"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:85
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:85
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:85
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:83
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:83
+msgid "Mandatory Field"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:86
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:86
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:86
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:84
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:84
+msgid "Make this field mandatory?"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:100
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:100
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:98
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:98
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:169
+msgid "Placeholder"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:101
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:101
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:99
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:99
+msgid "This text will be used as field placeholder"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:114
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:180
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:121
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:178
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:178
+msgid "Instructions for Users"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:115
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:181
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:122
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:179
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:179
+msgid "The users will see these instructions in the tooltip near the field"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:210
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:368
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:231
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:332
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:331
+msgid "The {label} field is required"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/email/views/class-fw-option-type-form-builder-item-email.php:215
+msgid "The {label} field must contain a valid email"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:20
+msgid "Add a Number field"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:22
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:50
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:79
+msgid "Number"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:107
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:105
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:105
+msgid "Default Value"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:108
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:106
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:106
+msgid "This text will be used as field default value"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:128
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:126
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:126
+msgid "Restrictions"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:129
+msgid "Set digits or values restrictions of this field"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:133
+msgid "Digits"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:134
+msgid "Value"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:142
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:156
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:140
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:154
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:140
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:154
+msgid "Min"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:143
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:157
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:141
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:155
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:141
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:155
+msgid "Minim value"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:148
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:162
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:146
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:160
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:146
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:160
+msgid "Max"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:149
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:163
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:147
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:161
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:147
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:161
+msgid "Maxim value"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:363
+msgid "The {label} field must be a valid number"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:373
+#, php-format
+msgid "The {label} field must have minimum %d digit"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:378
+#, php-format
+msgid "The {label} field must have minimum %d digits"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:383
+#, php-format
+msgid "The {label} field must have maximum %d digit"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:388
+#, php-format
+msgid "The {label} field must have maximum %d digits"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:393
+#, php-format
+msgid "The {label} field minimum value must be %s"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/number/views/class-fw-option-type-form-builder-item-number.php:398
+#, php-format
+msgid "The {label} field maximum value must be %s"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:18
+msgid "Add a Dropdown"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:22
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:49
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:79
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:165
+msgid "Dropdown"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:100
+msgid "Choices"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:101
+msgid "Add choice"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:110
+msgid "Randomize"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:111
+msgid "Do you want choices to be displayed in random order?"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/select/views/class-fw-option-type-form-builder-item-select.php:236
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:133
+msgid "{label}: Submitted data contains not existing choice"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:18
+msgid "Add a Single Line Text"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:20
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:47
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:77
+msgid "Single Line Text"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:127
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:127
+msgid "Set characters or words restrictions for this field"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:131
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:131
+msgid "Characters"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:132
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:132
+msgid "Words"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:337
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:336
+#, php-format
+msgid "The {label} field must contain minimum %d character"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:342
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:341
+#, php-format
+msgid "The {label} field must contain minimum %d characters"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:347
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:346
+#, php-format
+msgid "The {label} field must contain maximum %d character"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:352
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:351
+#, php-format
+msgid "The {label} field must contain maximum %d characters"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:357
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:356
+#, php-format
+msgid "The {label} field must contain minimum %d word"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:362
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:361
+#, php-format
+msgid "The {label} field must contain minimum %d words"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:367
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:366
+#, php-format
+msgid "The {label} field must contain maximum %d word"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/text/views/class-fw-option-type-form-builder-item-text.php:372
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:371
+#, php-format
+msgid "The {label} field must contain maximum %d words"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:18
+msgid "Add a Paragraph Text"
+msgstr ""
+
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:20
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:48
+#: framework-customizations/extensions/forms/form-builder/items/textarea/views/class-fw-option-type-form-builder-item-textarea.php:77
+msgid "Paragraph Text"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:24
+msgid "Date Time"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:57
+msgid "Time"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:128
+msgid "This {label} field is required"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:154
+msgid "The label of the field that will be displayed to the users"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:155
+msgid "Select Time"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:161
+msgid "Mandatory Field?"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:162
+msgid "If this field is mandatory for the user"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:176
+msgid "Type field"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:177
+msgid "How do you want to use the field?"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:179
+msgid "Date & Time"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:180
+msgid "Just Date"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:181
+msgid "Just Time"
+msgstr ""
+
+#: framework-customizations/extensions/forms/includes/builder-items/date-time/class-fw-option-type-form-builder-item-date-time.php:189
+msgid "Custom CSS Class"
+msgstr ""
+
+#: framework-customizations/extensions/portfolio/views/archive.php:54
+msgid "Portfolios"
+msgstr ""
+
+#: framework-customizations/extensions/portfolio/views/archive.php:98
+#: framework-customizations/extensions/services/views/archive.php:62
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/views/view.php:71
+msgid "All"
+msgstr ""
+
+#: framework-customizations/extensions/services/views/archive.php:51
+msgid "Our Departments"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:7
+msgid "Title of the Accordion"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:13
+msgid "Tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:14
+msgid "Add/Edit Tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:15
+msgid "Create your tabs"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:20
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:7
+msgid "Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:24
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:25
+msgid "Content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:29
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:7
+msgid "Button Label"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:30
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:8
+msgid "This is the text that appears on your button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:35
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:13
+msgid "Button Link"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:36
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:14
+msgid "Where should your button link to"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/accordion/options.php:42
+msgid "Accordion Type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:20
+msgid "Open Link in New Window"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:21
+msgid "Select here if you want to open the linked page in a new window"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:24
+msgid "Yes"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:28
+msgid "No"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:32
+msgid "Button Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:33
+msgid "Choose a color for your button"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:36
+msgid "Default"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:37
+msgid "Black"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:38
+msgid "Blue"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:39
+msgid "Green"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:40
+msgid "Red"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/button/options.php:45
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:41
+msgid "Centered"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/column/options.php:8
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:45
+msgid "Custom CSS Classes"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:13
+msgid "Ruler Type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:14
+msgid "Here you can set the styling and size of the HR element"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:16
+#: inc/widgets/widget-working-hours/widget-working-hours.php:100
+msgid "Line"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:17
+msgid "Whitespace"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:18
+msgid "Predefined -0.5x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:19
+msgid "Predefined 0.5x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:20
+msgid "Predefined 1.0x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:21
+msgid "Predefined 1.5x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:22
+msgid "Predefined 1.8x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:23
+msgid "Predefined 2.0x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:24
+msgid "Predefined 2.5x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:25
+msgid "Predefined 3.0x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:26
+msgid "Predefined 4.0x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:27
+msgid "Predefined 4.5x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:28
+msgid "Predefined 5.0x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:29
+msgid "Predefined 5.2x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:30
+msgid "Predefined 5.5x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:31
+msgid "Predefined 5.6x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:32
+msgid "Predefined 6.0x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:33
+msgid "Predefined 6.5x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:34
+msgid "Predefined 6.8x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:35
+msgid "Predefined 7.0x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:36
+msgid "Predefined 7.2x"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:43
+msgid "Height"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/divider/options.php:44
+msgid ""
+"How much whitespace do you need? Enter a pixel value. Positive value will "
+"increase the whitespace, negative value will reduce it. eg: '50', '-25', "
+"'200'"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:8
+msgid "Box Style"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:10
+msgid "Icon above title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:11
+msgid "Icon in line with title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:16
+msgid "Choose an Icon"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:21
+msgid "Title of the Box"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:26
+msgid "Enter the desired content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:30
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:53
+msgid "Testimonial Type"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:39
+msgid "Choose Image Icon"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/icon-box/options.php:40
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:26
+msgid ""
+"Either upload a new, or choose an existing image from your media library"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:5
+msgid "Portfolio"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:6
+msgid "Add a Portfolio"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:7
+msgid "Media Elements"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:5
+msgid "Order by"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:6
+msgid "Choose the order by"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:9
+msgid "Random order"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:10
+msgid "Order by post id"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:11
+msgid "Order by author"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:12
+msgid "Order by title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:13
+msgid "Order by date"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:14
+msgid "Order by last modified date"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:15
+msgid "Order by post/page parent id"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:16
+msgid "No order"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:20
+msgid "Order"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:21
+msgid "Choose the order"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:24
+msgid "DESC"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:25
+msgid "ASC"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:29
+msgid "Posts"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:30
+msgid "Shoose how many post to list"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:35
+msgid "Columns"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:36
+msgid "Choose columns"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:39
+msgid "2"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:40
+msgid "3"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:41
+msgid "4"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:45
+msgid "Gallery Style"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:48
+msgid "Gallery Regular"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:49
+msgid "Gallery Alternate"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:50
+msgid "Gallery Extended"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:54
+msgid "Use Space between "
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:12
+msgid "Full Width"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:16
+msgid "Full Width no padding"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:20
+msgid "Has Container"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:31
+msgid "Background Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:32
+msgid "Please select the background color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:36
+msgid "Dark Background"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:47
+msgid "Background Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:48
+msgid "Please select the background image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:58
+msgid "Background Image Overlay"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:59
+msgid "Please select the overlay color for background image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:65
+msgid "Background Repeat"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:67
+msgid "No Repeat"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:68
+msgid "Tile"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:69
+msgid "Tile Horizontally"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:70
+msgid "Tile Vertically"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:77
+msgid "Background Position"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:79
+msgid "Left"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:80
+msgid "Center"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:81
+msgid "Right"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:88
+msgid "Background Attachment"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:90
+msgid "Scroll"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:91
+msgid "Fixed"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:98
+msgid "Background Size"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:100
+msgid "Initial"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:101
+msgid "Contain"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:102
+msgid "Cover"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:107
+msgid "Background image Parallax"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:114
+msgid "Background Video"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:115
+msgid "Insert Video URL to embed this video"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:119
+msgid "Custom Class"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/section/options.php:120
+msgid "Add custom class for section"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:8
+msgid "Heading Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:9
+msgid "Write the heading title content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:13
+msgid "Heading Subtitle"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:14
+msgid "Write the heading subtitle content"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:18
+msgid "Heading Size"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:31
+msgid "Font Weight"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:35
+msgid "Text Color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/special-heading/options.php:36
+msgid "Please select the text color"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:8
+msgid "Option Testimonials Title"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:12
+msgid "Testimonials"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:13
+msgid "Add/Edit Testimonial"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:14
+msgid "Here you can add, remove and edit your Testimonials."
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:19
+msgid "Quote"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:20
+msgid "Enter the testimonial here"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:25
+msgid "Image"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:30
+msgid "Name"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:31
+msgid "Enter the Name of the Person to quote"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:35
+msgid "Position"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:36
+msgid "Can be used for a job description"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:40
+msgid "Website Name"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:41
+msgid "Linktext for the above Link"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:45
+msgid "Website Link"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/testimonials/options.php:46
+msgid "Link to the Persons website"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:7
+#: inc/mods/woocommerce-bridge/woocommerce-bridge.php:173
+msgid "Sidebar Position"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:14
+msgid "Sidebar position in category"
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:17
+msgid "Select sidebar position for certain category."
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:48
+msgid "You can select sidebar position for certain category."
+msgstr ""
+
+#: framework-customizations/theme/options/posts/page.php:49
+msgid "If chosen, global value will be overridden."
+msgstr ""
+
+#: functions.php:83
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:132
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:134 inc/mods/woocommerce-bridge/woocommerce-bridge.php:41
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:142 functions.php:552
+msgid "Widgets Before Header (Full-Width)"
+msgstr ""
+
+#: functions.php:144
+msgid "Add widgets here to appear full-width before header."
+msgstr ""
+
+#: functions.php:152 functions.php:565
+msgid "Widgets After Header (Full-Width)"
+msgstr ""
+
+#: functions.php:154
+msgid "Add widgets here to appear full-width after header."
+msgstr ""
+
+#: functions.php:163 functions.php:726
+msgid "Widgets Before Content"
+msgstr ""
+
+#: functions.php:165
+msgid "Add widgets here to appear over content."
+msgstr ""
+
+#: functions.php:173 functions.php:750
+#: inc/mods/woocommerce-bridge/woocommerce-bridge.php:63
+msgid "Widgets Before Loop (Loop-Width)"
+msgstr ""
+
+#: functions.php:175
+msgid "Add widgets here to appear over loop."
+msgstr ""
+
+#: functions.php:183 functions.php:772
+msgid "Widgets After Loop (Loop-Width)"
+msgstr ""
+
+#: functions.php:185
+msgid "Add widgets here to appear after loop."
+msgstr ""
+
+#: functions.php:193 functions.php:789
+msgid "Widgets After Content"
+msgstr ""
+
+#: functions.php:195
+msgid "Add widgets here to appear under content."
+msgstr ""
+
+#: functions.php:203 functions.php:807
+msgid "Widgets Before Footer (Full-Width)"
+msgstr ""
+
+#: functions.php:205
+msgid "Add widgets here to appear full-width before footer."
+msgstr ""
+
+#: functions.php:213 functions.php:822
+msgid "Footer Widget Wide"
+msgstr ""
+
+#: functions.php:215
+msgid "Add Footer Widget Wide."
+msgstr ""
+
+#: functions.php:223
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:225
+msgid "Add Footer Widget 1."
+msgstr ""
+
+#: functions.php:233
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:235
+msgid "Add Footer Widget 2."
+msgstr ""
+
+#: functions.php:243
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:245
+msgid "Add Footer Widget 3."
+msgstr ""
+
+#: functions.php:253 functions.php:263
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:255 functions.php:265
+msgid "Add Footer Widget 4."
+msgstr ""
+
+#: functions.php:274 functions.php:598
+msgid "Main Slider Widget 1"
+msgstr ""
+
+#: functions.php:276
+msgid "Add Main Slider Widget 1"
+msgstr ""
+
+#: functions.php:286 functions.php:639 functions.php:677
+msgid "Main Slider Widget 2"
+msgstr ""
+
+#: functions.php:288
+msgid "Add Main Slider Widget 2"
+msgstr ""
+
+#: functions.php:298
+msgid "Main Slider Widget 3"
+msgstr ""
+
+#: functions.php:300
+msgid "Add Main Slider Widget 3"
+msgstr ""
+
+#: functions.php:834
+msgid "Widgets for 404 Page"
+msgstr ""
+
+#: functions.php:862
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:869
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:1011
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:1012
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:1142
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:1146 inc/functions.php:129
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1154
+#, php-format
+msgid "<time datetime=\"%1$s\">%2$s</time>"
+msgstr ""
+
+#: functions.php:1154
+msgid "(Edit)"
+msgstr ""
+
+#: header.php:31
+msgid "Loading"
+msgstr ""
+
+#: image.php:28
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:28
+msgid "Next Image"
+msgstr ""
+
+#: image.php:61 partials/content-audio.php:71 partials/content-chat.php:142
+#: partials/content-gallery.php:63 partials/content-image.php:45
+#: partials/content-page.php:12 partials/content-video.php:84
+#: partials/content.php:153
+msgid "Pages:"
+msgstr ""
+
+#: image.php:88
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
+#: inc/back-compat.php:32 inc/back-compat.php:42 inc/back-compat.php:55
+#, php-format
+msgid ""
+"Valeo requires at least WordPress version 4.1. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/functions.php:52
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/functions.php:95
+msgid "You must agreed the policy"
+msgstr ""
+
+#: inc/functions.php:107
+msgid "Registration Successful - An email is sent"
+msgstr ""
+
+#: inc/functions.php:111
+msgid "Username or email already exists.  Password inherited."
+msgstr ""
+
+#: inc/functions.php:309
+msgid "Web Application Icons"
+msgstr ""
+
+#: inc/functions.php:311
+msgid "Hand Icons"
+msgstr ""
+
+#: inc/functions.php:312
+msgid "Transportation Icons"
+msgstr ""
+
+#: inc/functions.php:313
+msgid "Gender Icons"
+msgstr ""
+
+#: inc/functions.php:314
+msgid "File Type Icons"
+msgstr ""
+
+#: inc/functions.php:317
+msgid "Payment Icons"
+msgstr ""
+
+#: inc/functions.php:319
+msgid "Currency Icons"
+msgstr ""
+
+#: inc/functions.php:320
+msgid "Text Editor Icons"
+msgstr ""
+
+#: inc/functions.php:321
+msgid "Directional Icons"
+msgstr ""
+
+#: inc/functions.php:322
+msgid "Video Player Icons"
+msgstr ""
+
+#: inc/functions.php:323
+msgid "Brand Icons"
+msgstr ""
+
+#: inc/functions.php:324
+msgid "Medical Icons"
+msgstr ""
+
+#: inc/functions.php:325
+msgid "Theme Icons"
+msgstr ""
+
+#: inc/header_styles.php:252 inc/header_styles.php:464
+#: inc/header_styles.php:677
+msgid "You don't have a menu. Please create one "
+msgstr ""
+
+#: inc/header_styles.php:253 inc/header_styles.php:465
+#: inc/header_styles.php:678
+msgid "HERE"
+msgstr ""
+
+#: inc/header_styles.php:309 inc/header_styles.php:522
+#: inc/header_styles.php:735
+msgid "Enter search words and press enter"
+msgstr ""
+
+#: inc/header_styles.php:311 inc/header_styles.php:524
+#: inc/header_styles.php:737
+msgid "Type search keyword here..."
+msgstr ""
+
+#: inc/mods.php:19
+msgid "Main Menu Style"
+msgstr ""
+
+#: inc/mods/mod-metabox/mod-metabox.php:47
+msgid "Short Description"
+msgstr ""
+
+#: inc/mods/mod-post-views.php:63
+msgid "Views"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:11
+msgid "Widget options:"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:14
+msgid "Width"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:16
+msgid "1/1"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:17
+msgid "1/2"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:18
+msgid "1/3"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:19
+msgid "1/4"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:20
+msgid "2/3"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:21
+msgid "3/4"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:26
+msgid "Left offset"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:30
+msgid "Right offset"
+msgstr ""
+
+#: inc/mods/mod-widget-grid/mod-widget-grid.php:34
+msgid "Top offset"
+msgstr ""
+
+#: inc/mods/woocommerce-bridge/woocommerce-bridge.php:39
+#: inc/mods/woocommerce-bridge/woocommerce-bridge.php:158
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/template-tags.php:68
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:86 inc/template-tags.php:158 inc/template-tags.php:186
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:95 inc/template-tags.php:820 inc/template-tags.php:841
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:101 inc/template-tags.php:127
+#: inc/template-tags.php:478 inc/template-tags.php:494
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:104 inc/template-tags.php:481
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:114
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: inc/template-tags.php:123
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:123
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:123
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:130 inc/template-tags.php:497
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:217
+msgid "like"
+msgstr ""
+
+#: inc/template-tags.php:218
+msgid "likes"
+msgstr ""
+
+#: inc/template-tags.php:228
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:137
+msgid "view"
+msgstr ""
+
+#: inc/template-tags.php:229
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:137
+msgid "views"
+msgstr ""
+
+#: inc/template-tags.php:604
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:100
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:663
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:334
+#: inc/tgm-plugin-activation/plugins.php:88
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:335
+#: inc/tgm-plugin-activation/plugins.php:89
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:337
+#: inc/tgm-plugin-activation/plugins.php:90
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:340
+#: inc/tgm-plugin-activation/plugins.php:91
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:343
+#: inc/tgm-plugin-activation/plugins.php:92
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:349
+#: inc/tgm-plugin-activation/plugins.php:93
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:355
+#: inc/tgm-plugin-activation/plugins.php:98
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:367
+#: inc/tgm-plugin-activation/plugins.php:95
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:373
+#: inc/tgm-plugin-activation/plugins.php:96
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:378
+#: inc/tgm-plugin-activation/plugins.php:100
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: inc/tgm-plugin-activation/plugins.php:102
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:393
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:912
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2618
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3244
+#: inc/tgm-plugin-activation/plugins.php:103
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1019
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:1206
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3594
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin-activation/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin-activation/plugins.php:94
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/plugins.php:97
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/plugins.php:99
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/plugins.php:101
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin-activation/plugins.php:104
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:40
+msgid "Add contacts table to your site."
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:41
+msgid "Contacts Table"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:191
+#: inc/widgets/widget-custom-menu/widget-custom-menu.php:108
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:154
+#: inc/widgets/widget-working-hours/widget-working-hours.php:91
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:195
+msgid "Set icon for 1st item:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:206
+msgid "1st Item Title: "
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:210
+msgid "1st Item Text:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:215
+msgid "Set icon for 2st item:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:226
+msgid "2st Item Title: "
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:230
+msgid "2st Item Text:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:235
+msgid "Set icon for 3st item:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:246
+msgid "3st Item Title: "
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:250
+msgid "3st Item Text:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:255
+msgid "Set icon for 4st item:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:266
+msgid "4st Item Title: "
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:270
+msgid "4st Item Text:"
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:275
+msgid "Button Text: "
+msgstr ""
+
+#: inc/widgets/widget-contacts-table/widget-contacts-table.php:279
+msgid "Button Link: "
+msgstr ""
+
+#: inc/widgets/widget-custom-menu/widget-custom-menu.php:10
+msgid "Add a custom menu to your sidebar."
+msgstr ""
+
+#: inc/widgets/widget-custom-menu/widget-custom-menu.php:11
+msgid "Custom Menu"
+msgstr ""
+
+#: inc/widgets/widget-custom-menu/widget-custom-menu.php:100
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: inc/widgets/widget-custom-menu/widget-custom-menu.php:112
+msgid "Select Menu:"
+msgstr ""
+
+#: inc/widgets/widget-custom-menu/widget-custom-menu.php:114
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/widgets/widget-custom-menu/widget-custom-menu.php:123
+msgid "Use Social Icons"
+msgstr ""
+
+#: inc/widgets/widget-recent-comments/widget-recent-comments.php:16
+msgid "Recent Comments"
+msgstr ""
+
+#: inc/widgets/widget-recent-comments/widget-recent-comments.php:63
+#, php-format
+msgctxt "widgets"
+msgid "<div class=\"comment-head\">%1$s %2$s %3$s</div>"
+msgstr ""
+
+#: inc/widgets/widget-recent-comments/widget-recent-comments.php:104
+msgid "Display avatars?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:8
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:8
+msgid "Your site&#8217;s most recent Posts organized in Slider."
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:9
+msgid "Recent Posts Carousel"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:179
+#: inc/widgets/widget-team-members-carousel/widget-team-members-carousel.php:196
+msgid "Title<br><i>carousel title</i>"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:184
+#: inc/widgets/widget-team-members-carousel/widget-team-members-carousel.php:201
+msgid "Number of posts<br><i>to show</i>"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:187
+msgid "Category<br><i>posts category</i>"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:188
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:185
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:266
+msgid "All Categories"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:193
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:180
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:198
+msgid "Display post category?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:203
+msgid "Show short description?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:208
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:170
+#: inc/widgets/widget-team-members-carousel/widget-team-members-carousel.php:219
+msgid "Show navigation?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-carousel/widget-recent-posts-carousel.php:213
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:175
+#: inc/widgets/widget-team-members-carousel/widget-team-members-carousel.php:224
+msgid "Auto play"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:9
+msgid "Recent Posts Slider"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:159
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:165
+msgid "Show category?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts-slider/widget-recent-posts-slider.php:184
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:265
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:235
+msgid "Layout:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:238
+msgid "List"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:242
+msgid "Grid 1"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:246
+msgid "Grid 2"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:252
+msgid "Background:"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:255
+msgid "No Background"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:259
+msgid "Use Background"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:271
+msgid "Display post views?"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts/widget-recent-posts.php:277
+msgid "Display post likes?"
+msgstr ""
+
+#: inc/widgets/widget-team-members-carousel/widget-team-members-carousel.php:8
+msgid "Your site&#8217;s team members organized in Slider."
+msgstr ""
+
+#: inc/widgets/widget-team-members-carousel/widget-team-members-carousel.php:9
+msgid "Team Members Carousel"
+msgstr ""
+
+#: inc/widgets/widget-working-hours/widget-working-hours.php:10
+msgid "Add Working Hours block to your sidebar."
+msgstr ""
+
+#: inc/widgets/widget-working-hours/widget-working-hours.php:11
+msgid "Working Hours"
+msgstr ""
+
+#: partials/content-audio.php:66
+#, php-format
+msgid "CONTINUE READING %s"
+msgstr ""
+
+#: partials/content-chat.php:137
+#, php-format
+msgid "READ FULL CHAT %s"
+msgstr ""
+
+#: partials/content-gallery.php:58 partials/content-image.php:40
+#: partials/content-video.php:79 partials/content.php:148
+#, php-format
+msgid "Read more %s"
+msgstr ""
+
+#: partials/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: partials/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: partials/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: partials/content-none.php:32
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:8
+msgid "Get in touch"
+msgstr ""
+
+#: single.php:89
+msgid "Next post:"
+msgstr ""
+
+#: single.php:90
+msgid "Next"
+msgstr ""
+
+#: single.php:93
+msgid "Previous post:"
+msgstr ""
+
+#: single.php:94
+msgid "Previous"
+msgstr ""
+
+#: team-member.php:120
+msgid "Biography"
+msgstr ""
+
+#: team-member.php:121
+msgid "Skils"
+msgstr ""
+
+#: team-member.php:122
+msgid "Send Message"
+msgstr ""
+
+#: team-member.php:133
+msgid "Complete (success)"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Valeo"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://webdesign-finder.com/valeo"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Valeo - clean and simple WordPress blogging theme for parents, young "
+"mommies, teachers or pediatric websites. We've made main accent on theme "
+"readability and convenient navigation. Valeo looks great at any device, both "
+"desktop computers and phones."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "themeslucky"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/themeslucky"
+msgstr ""

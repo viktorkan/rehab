@@ -1,0 +1,41 @@
+.single .chat-transcript {
+    margin-bottom: 22px;
+}
+
+.chat-transcript .chat-author {
+    float: left;
+}
+
+.chat-transcript .chat-row,
+.chat-transcript .chat-row:last-child {
+    margin-bottom: 11px;
+}
+
+.chat-transcript .chat-row p {
+    margin-bottom: 0;
+}
+
+.chat-transcript .chat-row p + p {
+    margin-top: 11px;
+}
+
+.chat-transcript .chat-row.chat-speaker-2 {
+    padding: 6px 20px 6px 20px;
+    background: #e8f1f3;
+}
+
+/*
+.archive .format-chat .post__inner {
+    padding: 12px 25px 12px 25px;
+    background-color: #ffffff;
+}
+
+.single-format-chat .post-thumbnail {
+    background-color: #d9dadc;
+}
+
+.single-format-chat p:nth-child(odd) {
+    padding: 8px 25px 7px 25px;
+    background-color: #fafafa;
+    border-radius: 3px;
+}*/

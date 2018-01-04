@@ -1,0 +1,390 @@
+/**
+ * AccessPress Social Counter
+ */
+
+/* Remove border radius */
+
+.apsc-theme-1 .apsc-each-profile a,
+.apsc-theme-2 .apsc-each-profile a,
+.apsc-theme-2 .apsc-inner-block,
+.apsc-theme-4 .apsc-each-profile a,
+.apsc-theme-5 .apsc-each-profile a {
+    border-radius: 0;
+}
+
+/* AccessPress Social Counter -- Remove box shadow */
+
+.apsc-theme-1 .apsc-each-profile a,
+.apsc-theme-2 .apsc-each-profile a,
+.apsc-theme-2 .apsc-inner-block,
+.apsc-theme-5 .apsc-each-profile a,
+.apsc-theme-5 .apsc-each-profile a:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color=#b3b3b3)";
+    box-shadow: none;
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=0, Direction=0, Color=#b3b3b3);
+}
+
+/* AccessPress Social Counter -- Layout changes */
+
+.apsc-theme-1,
+.apsc-theme-2,
+.apsc-theme-4,
+.apsc-theme-5 {
+    margin: -6px 0 0 -6px;
+}
+
+.widget-width__full .apsc-theme-1,
+.widget-width__full .apsc-theme-1:last-child,
+.widget-width__full .apsc-theme-2,
+.widget-width__full .apsc-theme-2:last-child,
+.widget-width__full .apsc-theme-4,
+.widget-width__full .apsc-theme-4:last-child,
+.widget-width__full .apsc-theme-5,
+.widget-width__full .apsc-theme-5:last-child {
+    margin: 0 0 6px 0;
+}
+
+.apsc-theme-1 .apsc-each-profile,
+.apsc-theme-2 .apsc-each-profile,
+.apsc-theme-4 .apsc-each-profile,
+.apsc-theme-5 .apsc-each-profile {
+    margin: 6px 0 0 6px;
+}
+
+/* AccessPress Social Counter -- Theme 2 */
+
+.apsc-theme-2 .social-icon .fa {
+    font-size: 26px;
+}
+
+.apsc-theme-2 .apsc-count {
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 900;
+}
+
+.apsc-theme-2 .apsc-media-type {
+    font-family: 'Yantramanav', sans-serif;
+    text-transform: uppercase;
+    margin-top: -1px;
+}
+
+/* AccessPress Social Counter -- Remove animation on hover */
+
+.apsc-theme-2 .apsc-each-profile a:hover {
+    -webkit-transform: scale(1) rotate(0deg);
+    -ms-transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg);
+}
+
+/**
+ * Responsive and widget placements
+ */
+
+@media screen and (min-width: 15em) {
+    .apsc-theme-2 .apsc-each-profile {
+        width: 78px;
+        min-height: 78px;
+    }
+
+    .apsc-theme-2 .apsc-inner-block {
+        padding: 13px 8px;
+    }
+
+    .apsc-theme-2 .apsc-count {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .apsc-theme-2 .apsc-media-type {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .apsc-theme-2 .apsc-each-profile {
+        width: 111px;
+        min-height: 111px;
+    }
+
+    .apsc-theme-2 .apsc-inner-block {
+        padding: 27px 8px;
+    }
+
+    .apsc-theme-2 .apsc-count {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .apsc-theme-2 .apsc-media-type {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .apsc-theme-2 .apsc-each-profile {
+        width: 88px;
+        min-height: 88px;
+    }
+
+    .apsc-theme-2 .apsc-inner-block {
+        padding: 17px 8px;
+    }
+
+    .apsc-theme-2 .apsc-count {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .apsc-theme-2 .apsc-media-type {
+        font-size: 11px;
+        line-height: 11px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .apsc-theme-2 .apsc-each-profile {
+        width: 96px;
+        min-height: 96px;
+    }
+
+    .apsc-theme-2 .apsc-inner-block {
+        padding: 20px 8px;
+    }
+
+    .apsc-theme-2 .apsc-count {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .apsc-theme-2 .apsc-media-type {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+/* Secondary -- Left/Right site sidebar */
+
+@media screen and (min-width: 15em) {
+    .secondary .apsc-theme-2 .apsc-each-profile {
+        width: 78px;
+        min-height: 78px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-inner-block {
+        padding: 13px 8px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-count {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-media-type {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (min-width: 20em) {
+    .secondary .apsc-theme-2 .apsc-each-profile {
+        width: 82px;
+        min-height: 82px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-inner-block {
+        padding: 15px 8px;
+        min-height: 82px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-count {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-media-type {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .secondary .apsc-theme-2 .apsc-each-profile {
+        width: 111px;
+        min-height: 111px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-inner-block {
+        padding: 27px 8px;
+        min-height: 111px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-count {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-media-type {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .secondary .apsc-theme-2 .apsc-each-profile {
+        width: 88px;
+        min-height: 88px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-inner-block {
+        padding: 17px 8px;
+        min-height: 88px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-count {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-media-type {
+        font-size: 11px;
+        line-height: 11px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .secondary .apsc-theme-2 .apsc-each-profile,
+    .secondary .apsc-theme-2 .apsc-each-profile .apsc-inner-block {
+        width: 116px;
+        min-height: 116px;
+    }
+
+    .secondary .apsc-theme-2 .social-icon .fa {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-inner-block {
+        padding: 20px 8px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-count {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .secondary .apsc-theme-2 .apsc-media-type {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+/* Footer -- widgets sidebar */
+
+@media screen and (min-width: 15em) {
+    .footer__widgets-row .apsc-theme-2 .apsc-each-profile {
+        width: 78px;
+        min-height: 78px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-inner-block {
+        padding: 13px 8px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-count {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-media-type {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (min-width: 20em) {
+    .footer__widgets-row .apsc-theme-2 .apsc-each-profile {
+        width: 92px;
+        min-height: 92px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-inner-block {
+        padding: 20px 8px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-count {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-media-type {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer__widgets-row .apsc-theme-2 .apsc-each-profile {
+        width: 116px;
+        min-height: 116px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-inner-block {
+        padding: 30px 8px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-count {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-media-type {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer__widgets-row .apsc-theme-2 .apsc-each-profile {
+        width: 107px;
+        min-height: 107px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-inner-block {
+        padding: 25px 8px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-count {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-media-type {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer__widgets-row .apsc-theme-2 .apsc-each-profile {
+        width: 81px;
+        min-height: 81px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-inner-block {
+        padding: 13px 5px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-count {
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .footer__widgets-row .apsc-theme-2 .apsc-media-type {
+        font-size: 11px;
+        line-height: 11px;
+    }
+}

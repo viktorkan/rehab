@@ -1,0 +1,38 @@
+.contact-table input[type=radio] {
+    display: none;
+}
+
+.contact-table .select-icon {
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+.contact-table textarea {
+    width: 100%;
+}
+
+.contact-table .select-icon label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    float: left;
+    font-size: 1.5em;
+    padding: 3px;
+    border-radius: 50%;
+    margin: 3px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.contact-table .select-icon label:hover,
+.contact-table .select-icon input:checked + label {
+    color: #fff;
+    background: #9DC0E4;
+}
+
+.contact-table .select-icon i[class^="flaticon-"]:before,
+.contact-table .select-icon i[class*=" flaticon-"]:before,
+.contact-table .select-icon i[class^="flaticon-"]:after,
+.contact-table .select-icon i[class*=" flaticon-"]:after {
+    margin-left: 0;
+}

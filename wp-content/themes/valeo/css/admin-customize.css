@@ -1,0 +1,277 @@
+/**
+ * Customizer / WP Admin
+ */
+
+.wp-full-overlay.expanded {
+    /*crutch: see Customizer width*/
+    /*margin-left: 400px;*/
+}
+.wp-full-overlay-sidebar {
+    /*crutch: see Customizer width*/
+    /*width: 400px;*/
+}
+
+/**
+ * Share Post Socials
+ */
+
+li[id$='social_settings'] li label {
+    position: relative;
+}
+
+li[id$='social_settings'] li input[type="radio"],
+li[id$='social_settings'] li input[type="checkbox"] {
+    margin-right: 40px;
+}
+
+li[id$='social_settings'] li label .description {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 1.5em;
+}
+
+li[id$='social_settings'] li input:checked + .description i.fa-facebook{color: #91ABCE;}
+li[id$='social_settings'] li input:checked + .description i.fa-twitter{color: #65C8EB;}
+li[id$='social_settings'] li input:checked + .description i.fa-google-plus{color: #E0857B;}
+li[id$='social_settings'] li input:checked + .description i.fa-pinterest {color: #C8232C;}
+li[id$='social_settings'] li input:checked + .description i.fa-linkedin {color: #006699;}
+
+/**
+ * Color Themes
+ */
+
+#accordion-section-colors {
+    display: none !important;
+}
+
+/**
+ * Helper Classes
+ */
+
+/* Customizer / WP Admin */
+
+.customize-control input[type=tel],
+.customize-control input[type=url],
+.customize-control input[type=text],
+.customize-control input[type=password],
+.customize-control input[type=email],
+.customize-control input[type=number],
+.customize-control input[type=search] {
+    width: 100%;
+}
+
+#customize-controls .grid {
+    overflow: hidden;
+    font-size: 0;
+    margin: 13px 0;
+}
+
+#customize-controls .width-xs,
+#customize-controls .width-sm,
+#customize-controls .width-md,
+#customize-controls .width-lg {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    clear: none;
+}
+
+#customize-controls .width-xs *,
+#customize-controls .width-sm *,
+#customize-controls .width-md *,
+#customize-controls .width-lg * {
+    font-size: 13px;
+}
+
+#customize-controls .width-xs {
+    width: 10%;
+}
+
+#customize-controls .width-sm {
+    width: 30%;
+}
+
+#customize-controls .width-md {
+    width: 70%;
+}
+
+#customize-controls .width-lg {
+    width: 90%;
+}
+
+#customize-controls .push-xs,
+#customize-controls .push-sm,
+#customize-controls .push-md,
+#customize-controls .push-lg,
+#customize-controls .pull-xs,
+#customize-controls .pull-sm,
+#customize-controls .pull-md,
+#customize-controls .pull-lg {
+    position: relative;
+}
+
+#customize-controls .push-xs {left: 10%;}
+#customize-controls .push-sm {left: 30%;}
+#customize-controls .push-md {left: 70%;}
+#customize-controls .push-lg {left: 90%;}
+#customize-controls .pull-xs {right: 10%;}
+#customize-controls .pull-sm {right: 30%;}
+#customize-controls .pull-md {right: 70%;}
+#customize-controls .pull-lg {right: 90%;}
+
+#customize-controls span.width-xs,
+#customize-controls span.width-sm,
+#customize-controls span.width-md,
+#customize-controls span.width-lg {
+    /*display: inline-block;*/
+}
+
+#customize-controls span.width-xs label,
+#customize-controls span.width-sm label,
+#customize-controls span.width-md label,
+#customize-controls span.width-lg label {
+    display: inline-block;
+    margin-top: 4px;
+}
+
+/**
+ * Widget Options (mod widget grid)
+ */
+
+.widget-options-block {
+    padding: 0 1em 1em 1em;
+    margin-bottom: 1em;
+    border: solid 1px #e5e5e5;
+    background-color: #f7f7f7;
+}
+
+/**
+ * Mark Theme Widgets with CSS Shape
+ */
+
+.wp-admin [id*="_about-author"] .widget-title h3,
+.wp-admin [id*="_banner-posts"] .widget-title h3,
+.wp-admin [id*="_banner-strip"] .widget-title h3,
+.wp-admin [id*="_breaking-news"] .widget-title h3,
+.wp-admin [id*="_contacts-table"] .widget-title h3,
+.wp-admin [id*="_main-slider"] .widget-title h3,
+.wp-admin [id*="_news-gallery"] .widget-title h3,
+.wp-admin [id*="_news-tabs"] .widget-title h3,
+.wp-admin [id*="_recent-posts-carousel"] .widget-title h3,
+.wp-admin [id*="_recent-posts-slider"] .widget-title h3,
+.wp-admin [id*="_team-members-carousel"] .widget-title h3,
+.wp-admin [id*="_top-news"] .widget-title h3,
+.wp-admin [id*="_woo-categories"] .widget-title h3,
+.wp-admin [id*="_working-hours"] .widget-title h3,
+
+#customize-controls [id*="_about-author"] .widget-title h3,
+#customize-controls [id*="_banner-posts"] .widget-title h3,
+#customize-controls [id*="_banner-strip"] .widget-title h3,
+#customize-controls [id*="_breaking-news"] .widget-title h3,
+#customize-controls [id*="_contacts-table"] .widget-title h3,
+#customize-controls [id*="_main-slider"] .widget-title h3,
+#customize-controls [id*="_news-gallery"] .widget-title h3,
+#customize-controls [id*="_news-tabs"] .widget-title h3,
+#customize-controls [id*="_recent-posts-carousel"] .widget-title h3,
+#customize-controls [id*="_recent-posts-slider"] .widget-title h3,
+#customize-controls [id*="_team-members-carousel"] .widget-title h3,
+#customize-controls [id*="_top-news"] .widget-title h3,
+#customize-controls [id*="_woo-categories"] .widget-title h3,
+#customize-controls [id*="_working-hours"] .widget-title h3,
+
+#available-widgets-list [id*="-tpl-about-author"],
+#available-widgets-list [id*="-tpl-banner-posts"],
+#available-widgets-list [id*="-tpl-banner-strip"],
+#available-widgets-list [id*="-tpl-breaking-news"],
+#available-widgets-list [id*="-tpl-contacts-table"],
+#available-widgets-list [id*="-tpl-main-slider"],
+#available-widgets-list [id*="-tpl-news-gallery"],
+#available-widgets-list [id*="-tpl-news-tabs"],
+#available-widgets-list [id*="-tpl-recent-posts-carousel"],
+#available-widgets-list [id*="-tpl-recent-posts-slider"],
+#available-widgets-list [id*="-tpl-team-members-carousel"],
+#available-widgets-list [id*="-tpl-top-news"],
+#available-widgets-list [id*="-tpl-woo-categories"],
+#available-widgets-list [id*="-tpl-working-hours"]
+{
+    position: relative;
+}
+
+.wp-admin [id*="_about-author"] .widget-title h3:before,
+.wp-admin [id*="_banner-posts"] .widget-title h3:before,
+.wp-admin [id*="_banner-strip"] .widget-title h3:before,
+.wp-admin [id*="_breaking-news"] .widget-title h3:before,
+.wp-admin [id*="_contacts-table"] .widget-title h3:before,
+.wp-admin [id*="_main-slider"] .widget-title h3:before,
+.wp-admin [id*="_news-gallery"] .widget-title h3:before,
+.wp-admin [id*="_news-tabs"] .widget-title h3:before,
+.wp-admin [id*="_recent-posts-carousel"] .widget-title h3:before,
+.wp-admin [id*="_recent-posts-slider"] .widget-title h3:before,
+.wp-admin [id*="_team-members-carousel"] .widget-title h3:before,
+.wp-admin [id*="_top-news"] .widget-title h3:before,
+.wp-admin [id*="_woo-categories"] .widget-title h3:before,
+.wp-admin [id*="_working-hours"] .widget-title h3:before,
+
+#customize-controls [id*="_about-author"] .widget-title h3:before,
+#customize-controls [id*="_banner-posts"] .widget-title h3:before,
+#customize-controls [id*="_banner-strip"] .widget-title h3:before,
+#customize-controls [id*="_breaking-news"] .widget-title h3:before,
+#customize-controls [id*="_contacts-table"] .widget-title h3:before,
+#customize-controls [id*="_main-slider"] .widget-title h3:before,
+#customize-controls [id*="_news-gallery"] .widget-title h3:before,
+#customize-controls [id*="_news-tabs"] .widget-title h3:before,
+#customize-controls [id*="_recent-posts-carousel"] .widget-title h3:before,
+#customize-controls [id*="_recent-posts-slider"] .widget-title h3:before,
+#customize-controls [id*="_team-members-carousel"] .widget-title h3:before,
+#customize-controls [id*="_top-news"] .widget-title h3:before,
+#customize-controls [id*="_woo-categories"] .widget-title h3:before,
+#customize-controls [id*="_working-hours"] .widget-title h3:before,
+
+#available-widgets-list [id*="-tpl-about-author"]:before,
+#available-widgets-list [id*="-tpl-banner-posts"]:before,
+#available-widgets-list [id*="-tpl-banner-strip"]:before,
+#available-widgets-list [id*="-tpl-breaking-news"]:before,
+#available-widgets-list [id*="-tpl-contacts-table"]:before,
+#available-widgets-list [id*="-tpl-main-slider"]:before,
+#available-widgets-list [id*="-tpl-news-gallery"]:before,
+#available-widgets-list [id*="-tpl-news-tabs"]:before,
+#available-widgets-list [id*="-tpl-recent-posts-carousel"]:before,
+#available-widgets-list [id*="-tpl-recent-posts-slider"]:before,
+#available-widgets-list [id*="-tpl-team-members-carousel"]:before,
+#available-widgets-list [id*="-tpl-top-news"]:before,
+#available-widgets-list [id*="-tpl-woo-categories"]:before,
+#available-widgets-list [id*="-tpl-working-hours"]:before
+{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+
+    width: 0;
+    height: 0;
+    border-top: 6px solid #999999;
+    border-right: 6px solid transparent;
+}
+
+
+/* see: Customizing -> Site Settings Footer Socials */
+ul#sub-accordion-section-header_social_settings li.customize-control-checkbox,
+ul#sub-accordion-section-header_social_settings li.customize-control-checkbox span,
+ul#sub-accordion-section-footer_social_settings li.customize-control-checkbox,
+ul#sub-accordion-section-footer_social_settings li.customize-control-checkbox span
+{
+    margin-bottom: 0;
+}
+
+ul#sub-accordion-section-header_social_settings li.customize-control-checkbox label,
+ul#sub-accordion-section-footer_social_settings li.customize-control-checkbox label {
+    padding-bottom: 0;
+}
+
+ul#sub-accordion-section-header_social_settings li.customize-control-text,
+ul#sub-accordion-section-footer_social_settings li.customize-control-text {
+    margin-bottom: 20px;
+}

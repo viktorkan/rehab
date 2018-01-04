@@ -1,0 +1,15 @@
+/**
+ * RTL Recent posts carousel
+ */
+
+/* RTL Recent posts carousel -- with title */
+
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-prev {
+    right: auto;
+    left: 0;
+}
+
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next {
+    right: auto;
+    left: 40px;
+}

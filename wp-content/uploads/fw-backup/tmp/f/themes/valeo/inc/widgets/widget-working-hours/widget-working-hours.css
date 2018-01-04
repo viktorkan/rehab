@@ -1,0 +1,98 @@
+/**
+ * Working hours
+ */
+
+.working-hours {
+}
+
+.working-hours ul {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5715;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.working-hours ul li {
+    position: relative;
+    padding: 14px 0 14px 25px;
+    overflow: hidden;
+}
+
+.working-hours ul li:before {
+    content: '\f017';
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1.2223;
+    font-weight: 300;
+    position: absolute;
+    top: 14px;
+    left: 1px;
+}
+
+.working-hours ul li > div {
+}
+
+.working-hours ul li strong,
+.working-hours ul li span {
+    display: block;
+}
+
+.working-hours ul li + li {
+    border-top: solid 1px #5d86a2;
+}
+
+/* Disable: Animate/Transition */
+
+.transition--off {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+/* Responsive and widget placements */
+
+.footer .working-hours ul li + li {
+    border-top: solid 1px #6ea6cd;
+}
+
+.msi-blocks .working-hours ul li {
+    color: #ffffff;
+}
+
+.msi-blocks .working-hours ul li strong,
+.msi-blocks .working-hours ul li span {
+    color: #ffffff;
+}
+
+.msi-blocks .working-hours ul li:before {
+    color: #7da3bb;
+}
+
+@media (min-width: 480px) {
+    .working-hours ul li strong,
+    .working-hours ul li span {
+        float: right;
+    }
+}
+
+@media (min-width: 992px) {
+    .msi-blocks .working-hours ul {
+        font-size: 11px;
+        font-size: 1.1rem;
+        line-height: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    .msi-blocks .working-hours ul {
+        font-size: 14px;
+        font-size: 1.4rem;
+        line-height: 1.5715;
+    }
+}

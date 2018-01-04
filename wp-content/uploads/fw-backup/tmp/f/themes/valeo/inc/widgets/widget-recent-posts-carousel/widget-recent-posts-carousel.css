@@ -1,0 +1,363 @@
+/**
+ * Recent posts carousel
+ */
+
+.widget.widget_recent_entries_carousel {padding: 0;}
+.widget.widget_recent_entries_carousel .owl-carousel .owl-controls {margin-top: 0;}
+.widget.widget_recent_entries_carousel .owl-carousel .owl-controls .owl-nav .owl-prev,
+.widget.widget_recent_entries_carousel .owl-carousel .owl-controls .owl-nav .owl-next {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 2px;
+    border: solid 1px #c1d8dd;
+    background-color: #ffffff;
+    color: #9bbbc5;
+}
+.widget.widget_recent_entries_carousel .owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+.widget.widget_recent_entries_carousel .owl-carousel .owl-controls .owl-nav .owl-next:hover {
+    color: #3d6889;
+}
+
+/* Recent posts carousel -- with title */
+
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav {
+    position: absolute;
+    top: -66px;
+}
+.widget-width__loop .widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav {
+    top: -82px;
+}
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next {margin-right: 0;}
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-prev,
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next {
+    border: none;
+    position: absolute;
+    top: 0;
+}
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next:hover {
+    color: #3d6889;
+}
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-prev {right: 40px;}
+.widget.widget_recent_entries_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next {right: 0;}
+/* end: with title*/
+
+/* With description */
+
+.rp-show-description.navigation_true {
+    padding-top: 90px;
+}
+.owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav {
+    top: 0;
+    left: 50%;
+    width: 120px;
+    margin-left: -60px;
+    padding-top: 30px;
+    text-align: center;
+    border-top: solid 3px #3d6889;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+     transform: translateY(0);
+}
+
+.owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav .owl-prev,
+.owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav .owl-next {
+    float: none;
+    height: 30px;
+    width: 35px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.widget.widget_recent_entries_carousel .owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav .owl-prev,
+.widget.widget_recent_entries_carousel .owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav .owl-next {
+    border: none;
+}
+
+.owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav .owl-prev {
+    text-align: left;
+}
+
+.owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav .owl-next {
+    text-align: right;
+    border-left: solid 1px rgba(255, 255, 255, 0.25);
+}
+
+.owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav .owl-prev:hover span,
+.owl-carousel.rp-show-description.navigation_true .owl-controls .owl-nav .owl-next:hover span {
+    opacity: 0.6;
+}
+
+/* Recent posts carousel -- Overlay */
+
+.rp-carousel .item .overlay {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.rp-carousel .item .overlay {background: rgba(50,50,50,0.1); opacity: 0.8; /* #323232 */  }
+.rp-carousel .item:hover .overlay {background: rgba(50,50,50,0.5);}
+.rp-carousel .overlay:before,
+.rp-carousel .overlay:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.rp-carousel .overlay:before {}
+.rp-carousel .overlay:after {
+    background: -moz-linear-gradient(top, rgba(41, 42, 46, 0.01) 0%, rgba(41, 42, 46, 0.9) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(41, 42, 46, 0.01)), color-stop(100%, rgba(41, 42, 46, 0.9)));
+    background: -webkit-linear-gradient(top, rgba(41, 42, 46, 0.01) 0%, rgba(41, 42, 46, 0.9) 100%);
+    background: -o-linear-gradient(top, rgba(41, 42, 46, 0.01) 0%, rgba(41, 42, 46, 0.9) 100%);
+    background: -ms-linear-gradient(top, rgba(41, 42, 46, 0.01) 0%, rgba(41, 42, 46, 0.9) 100%);
+    background: linear-gradient(to bottom, rgba(41, 42, 46, 0.01) 0%, rgba(41, 42, 46, 0.9) 100%);
+    opacity: 1;
+}
+.rp-carousel .item:hover .overlay:after {
+    opacity: 1;
+}
+.rp-carousel__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.rp-carousel__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 0 10px;
+    text-align: center;
+}
+
+/* Recent posts carousel -- Category */
+
+.rp-carousel__category {
+    display: inline-block;
+}
+.rp-carousel__category a,
+.rp-carousel__category span {
+    display: inline-block;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    padding: 4px 16px;
+    margin-bottom: 13px;
+    color: #ffffff;
+}
+.rp-carousel__category a:hover {
+    color: rgba(255,255,255,0.5);
+}
+
+/* Recent posts carousel -- Title */
+
+.rp-carousel__title {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.1111;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.rp-carousel__title a {color: #ffffff;}
+.rp-carousel__title a:hover {color: #b2b2b2;}
+
+/* Recent posts carousel -- Date */
+
+.rp-carousel__date {
+    display: block;
+    margin-bottom: 10px;
+    color: #b2b2b2;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+/* Recent posts carousel -- Show Description */
+
+
+.fw-row .fw-col-xs-12 > div .widget.widget_recent_entries_carousel .widgettitle {
+    text-align: center;
+}
+
+.rp-show-description .rp-carousel__content {
+    position: relative;
+    padding: 33px 40px 33px 40px;
+    padding: 36px 40px 40px 40px;
+    border-radius: 0 0 2px 2px;
+    border-bottom: solid 4px #3d6889;
+    background-color: #ffffff;
+}
+
+.rp-show-description .active + .active .rp-carousel__content {
+    border-bottom: solid 4px #4e8dbd;
+}
+
+.rp-show-description .active + .active + .active .rp-carousel__content {
+    border-bottom: solid 4px #73d0f4;
+}
+
+.rp-show-description .rp-carousel__category {
+    font-size: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 0;
+    margin: 0 0 11px 0;
+    text-transform: uppercase;
+}
+.rp-show-description .rp-carousel__category a {
+    padding: 0;
+    margin: 0;
+}
+.rp-show-description .rp-carousel__category,
+.rp-show-description .rp-carousel__category a {
+    color: #88adb9;
+}
+.rp-show-description .rp-carousel__title {
+    font-size: 25px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.04;
+    overflow: hidden;
+    height: 52px;
+    margin-bottom: 22px;
+    margin-bottom: 30px;
+    color: #3d6889;
+}
+.rp-show-description .rp-carousel__title a {
+    color: #3d6889;
+}
+.rp-show-description .rp-carousel__title a:hover,
+.rp-show-description .rp-carousel__title a:focus {
+    color: #4e8dbd;
+}
+
+.rp-show-description .rp-carousel__date {
+    font-size: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: -11px;
+    margin-bottom: 33px;
+    color: #88adb9;
+}
+.rp-show-description .rp-carousel__desc {
+    display: block;
+    overflow: hidden;
+    height: 66px;
+}
+
+.rp-carousel__more {
+    display: block;
+    text-align: center;
+    margin-top: 33px;
+    margin-top: 34px;
+    padding-top: 33px;
+    padding-top: 40px;
+    border-top: solid 1px #d3e4e8;
+}
+
+.rp-carousel__more a {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5715;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    padding: 14px 22px;
+    background-color: #3d6889;
+    color: #ffffff;
+}
+
+.active + .active .rp-carousel__more a {
+    background-color: #4e8dbd;
+}
+
+.active + .active + .active .rp-carousel__more a {
+    background-color: #73d0f4;
+}
+
+.rp-carousel__more a:hover,
+.rp-carousel__more a:focus {
+    color: #b3ccda;
+}
+
+/* Disable: Animate/Transition */
+
+.transition--off {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+/* Animate/Transition */
+
+.rp-carousel .item .overlay,
+.rp-carousel .item:hover .overlay,
+.rp-carousel .item .overlay:after,
+.rp-carousel .item:hover .overlay:after,
+.transition--on {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/**
+ * Responsive and widget placements
+ */
+
+/* Footer widget */
+
+.footer .rp-carousel__category a,
+.footer .rp-carousel__category span {color: #ffffff;}
+.footer .rp-carousel__category a:hover {color: rgba(255,255,255,0.5);}
+.footer .rp-carousel__title a {color: #ffffff;}
+.footer .rp-carousel__title a:hover {color: #b2b2b2;}
+
+.footer .rp-show-description .rp-carousel__title a {
+    color: #3d6889;
+}
+
+.footer .rp-show-description .rp-carousel__title a:hover,
+.footer .rp-show-description .rp-carousel__title a:focus {
+    color: #4e8dbd;
+}
+
+.footer .widget.widget_recent_entries_carousel .owl-carousel .owl-controls .owl-nav .owl-prev,
+.footer .widget.widget_recent_entries_carousel .owl-carousel .owl-controls .owl-nav .owl-next {
+    background-color: transparent;
+}
+.footer .widget.widget_recent_entries_carousel .owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+.footer .widget.widget_recent_entries_carousel .owl-carousel .owl-controls .owl-nav .owl-next:hover {
+    /*border: solid 1px #4e8dbd;*/
+    /*color: #4e8dbd;*/
+}
+
+.footer__widgets-row .widget.widget_recent_entries_carousel {
+    padding-bottom: 40px;
+}

@@ -1,0 +1,330 @@
+/**
+ * 16.0 Unyson Page Builder -- RTL
+ */
+
+
+.post-container.sleft .unyson_content,
+.post-container.sright .unyson_content {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.unyson_fullwidth.fw-container-no .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bg-image-overlay {
+    left: auto;
+    right: 0;
+}
+
+.fw-accordion .fw-accordion-title {
+    padding: 14px 55px 13px 50px;
+}
+
+.fw-accordion .fw-accordion-title:before {
+    left: auto;
+    right: 22px;
+}
+
+.fw-accordion .fw-accordion-content > p {
+    padding: 0 40px 0 40px;
+}
+
+.fw-accordion .fw-accordion-content .widget {
+    padding: 0 30px 0 30px;
+}
+
+.fw-accordion .fw-accordion-title .ui-icon,
+.fw-accordion .fw-accordion-title.ui-state-active .ui-icon {
+    left: 20px;
+    right: auto;
+}
+
+.fw-accordion .fw-accordion-title .ui-icon:before {
+    margin-right: auto;
+    margin-left: -3px;
+}
+
+.acc-type2 .fw-accordion-main-title h3 {
+    padding: 32px 11px 31px 11px;
+    margin-right: -40px;
+    margin-left: -40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.acc-type2 .fw-accordion .fw-accordion-title {
+    padding: 13px 19px 11px 50px;
+}
+
+.acc-type2 .fw-accordion .fw-accordion-title.ui-state-active {
+    border-radius: 5px 5px 0 0;
+}
+
+.acc-type2 .fw-accordion .fw-accordion-title .ui-icon {
+    right: auto;
+    left: 9px;
+}
+
+.acc-type2 .fw-accordion .fw-accordion-title .ui-icon:before {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.acc-type2 .fw-accordion .fw-accordion-content {
+    border-radius: 0 0 5px 5px;
+}
+
+.acc-type2 .fw-accordion .fw-accordion-content > p {
+    padding: 0 19px 0 19px;
+}
+
+.fw-shortcode-calendar-wrapper .btn-group {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.cal-week-box .cal-row-head [class*="cal-cell"] small span {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.cf-type2 .wrap-forms .header.title h2 {
+    padding: 32px 11px 31px 11px;
+    margin-right: -40px;
+    margin-left: -40px;
+    border-radius: 5px 5px 0 0;
+}
+
+.cf-type2 .bootstrap-select.btn-group .btn .caret {
+    right: auto;
+    left: 11px;
+}
+
+.field-text.label--hide.date:before {
+    right: auto;
+    left: 10px;
+}
+
+.field-text.label--hide.time:before {
+    right: auto;
+    left: 10px;
+}
+
+.fw-alert .alert-icon {
+    margin-right: auto;
+    margin-left: 7px;
+}
+
+.fw-table table > thead > tr > th,
+.fw-table table > tbody > tr > th,
+.fw-table table > tfoot > tr > th,
+.fw-table table > thead > tr > td,
+.fw-table table > tbody > tr > td,
+.fw-table table > tfoot > tr > td {
+    padding: 11px 6px 11px 6px;
+    border-right: solid 1px #d3e4e8;
+}
+
+.fw-table table > thead > tr > th {
+    padding: 11px 22px 11px 22px;
+}
+
+.fw-package > div:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.fw-pricing {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.fw-package .fw-heading-row,
+.fw-package .fw-pricing-row {
+    margin-right: -1px;
+    margin-left: -1px;
+}
+
+.fw-tabs-container .fw-tabs ul li {
+    margin-right: auto;
+    margin-left: 2px;
+    border-radius: 2px 2px 0 0;
+    border-right: solid 1px #9bbbc5;
+}
+
+.fw-tabs-container .fw-tabs ul li a {
+    padding: 14px 19px 13px 19px;
+}
+
+.fw-tabs-container .fw-tab-content {
+    border-radius: 0 0 5px 5px;
+}
+
+.fw-team .fw-team-inner {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.fw-testimonials-2 {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fw-testimonials-2 .fw-testimonials-meta {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fw-testimonials-2 .fw-testimonials-author em:before {
+    margin-left: 2px;
+}
+
+.fw-testimonials .fw-testimonials-pagination {
+    left: auto;
+}
+
+.shortcode-widget-area > .widget {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.menu-strip a:before {
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.sidebar-after-header .nivo-caption-inner {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sidebar-after-header .wrap-nivoslider .nivo-directionNav {
+    left: auto;
+    right: 50%;
+    margin-right: -50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sidebar-after-header .theme-default a.nivo-prevNav {
+    left: auto;
+    right: 15px;
+}
+
+.sidebar-after-header .theme-default a.nivo-nextNav {
+    left: auto;
+    right: 50px;
+}
+
+@media (min-width: 768px) {
+    .wrap-forms .fw-row {
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+
+    .wrap-forms .form-builder-item {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .sidebar-after-header .wrap-nivoslider .nivo-directionNav {
+        margin-right: -360px;
+    }
+
+    .sidebar-after-header .theme-default a.nivo-prevNav {
+        left: auto;
+        right: 0;
+    }
+
+    .sidebar-after-header .theme-default a.nivo-nextNav {
+        left: auto;
+        right: 55px;
+    }
+}
+
+@media (min-width: 992px) {
+    .sidebar-after-header .wrap-nivoslider .nivo-directionNav {
+        margin-left: auto;
+        margin-right: -470px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sidebar-after-header .wrap-nivoslider .nivo-directionNav {
+        margin-left: auto;
+        margin-right: -570px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .sidebar-after-header .wrap-nivoslider .nivo-directionNav {
+        margin-left: auto;
+        margin-right: -585px;
+    }
+}
+
+@media screen and (min-width: 46.25em) {
+    .fw-iconbox-2 .fw-iconbox-image {
+        float: right;
+    }
+
+    .ib-type2.fw-iconbox-2 .fw-iconbox-aside {
+        margin-left: auto;
+        margin-right: 100px;
+    }
+}
+
+@media screen and (min-width: 783px) {
+    .menu-strip .mega-menu {
+        left: auto;
+        right: 0;
+    }
+
+    .menu-strip .mega-menu p {
+        margin: 0 0 1em 0;
+    }
+
+    .menu-strip .mega-menu-col {
+        border-right: 1px solid #818181;
+    }
+
+    .menu-strip .mega-menu-col:first-child {
+        border-right: none;
+    }
+
+    .menu-strip .mega-menu-col .sub-menu .sub-menu {
+        padding-right: 27px;
+    }
+
+    .menu-strip .mega-menu-row .sub-menu-has-icons {
+        padding-right: 27px;
+    }
+
+    .menu-strip .mega-menu-row .menu-item-has-icon > p {
+        margin-right: -27px;
+    }
+
+    .menu-strip .mega-menu-row .sub-menu-has-icons a:before,
+    .menu-strip .mega-menu-row > .menu-item-has-icon > a:before {
+        right: -27px;
+    }
+
+    .menu-strip .mega-menu-row > .menu-item-has-icon > a {
+        right: 27px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .partners-row .fw-col-xs-12 {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .partners-row .fw-col-xs-12 {
+        float: right;
+    }
+}

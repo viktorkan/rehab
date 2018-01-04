@@ -1,0 +1,112 @@
+ul.widget-contacts-table {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.widget-contacts-table li {
+    position: relative;
+    padding: 0 0 0 21px;
+}
+
+ul.widget-contacts-table li span.rt-icon {
+    font-size: 16px;
+    font-size: 1.6rem;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #c3d7e1;
+}
+
+ul.widget-contacts-table li span.rt-icon.icon-mail2 {
+    top: -2px;
+}
+
+ul.widget-contacts-table li span.rt-icon:before,
+ul.widget-contacts-table li span.rt-icon:after {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+ul.widget-contacts-table li:last-child {
+    border-bottom: none;
+}
+
+ul.widget-contacts-table li::before {
+    /*content: '';*/
+}
+
+ul.widget-contacts-table p {
+    margin: 0;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.0715;
+    color: #88adb9;
+}
+
+ul.widget-contacts-table p .email,
+ul.widget-contacts-table p a {
+    color: #3d6889;
+    text-decoration: none;
+}
+
+ul.widget-contacts-table p .email:hover,
+ul.widget-contacts-table p a:hover {
+    text-decoration: none;
+}
+
+ul.widget-contacts-table .item-title {
+    text-transform: uppercase;
+    color: #88adb9;
+}
+
+ul.widget-contacts-table .item-content {
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #c3d7e1;
+}
+
+ul.widget-contacts-table .item-button a {
+    display: inline-block;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.5715;
+    height: 50px;
+    border-radius: 2px;
+    padding: 14px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 0;
+    background-image: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-appearance: initial;
+
+    border-color: transparent;
+    border-width: 0;
+    background-color: #3d6889;
+    color: #ffffff;
+}
+
+.footer ul.widget-contacts-table li .rt-icon,
+.footer ul.widget-contacts-table .item-title {
+    color: #ffffff;
+}
+
+.footer ul.widget-contacts-table p {
+}

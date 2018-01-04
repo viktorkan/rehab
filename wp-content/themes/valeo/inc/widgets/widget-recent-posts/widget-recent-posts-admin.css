@@ -1,0 +1,11 @@
+.recent-posts-radio {
+    display: none !important;
+}
+
+.recent-posts-radio-label img {
+    border: 2px solid transparent;
+}
+
+.recent-posts-radio-label input[type=radio]:checked + img {
+    border: 2px solid #00a0d2;
+}

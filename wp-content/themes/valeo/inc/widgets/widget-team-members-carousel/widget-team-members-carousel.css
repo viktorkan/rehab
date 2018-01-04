@@ -1,0 +1,186 @@
+/**
+ * Team Members carousel
+ */
+
+.widget.widget_team_members_carousel {
+    padding: 0;
+}
+
+.widget.widget_team_members_carousel .owl-carousel .owl-controls {
+    margin-top: 0;
+}
+
+@media (min-width: 1200px) {
+    .widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav {
+        text-align: right;
+        top: -55px;
+    }
+
+    .widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-next {
+        margin-right: 0;
+        margin-left: 5px;
+    }
+
+    .widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-prev,
+    .widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-next {
+        display: inline-block;
+        float: none;
+    }
+}
+
+.widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-prev,
+.widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-next {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 2px;
+    border: solid 1px #c1d8dd;
+    background-color: #ffffff;
+    color: #999999;
+}
+
+.widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+.widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-next:hover {
+    color: #3d6889;
+}
+
+/* Team Members carousel -- with title */
+
+.widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav {
+    position: absolute;
+    top: -66px;
+}
+
+.widget-width__loop .widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav {
+    top: -82px;
+}
+
+.widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next {
+    margin-right: 0;
+}
+
+.widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-prev,
+.widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next {
+    border: none;
+    position: absolute;
+    top: 0;
+}
+
+.widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+.widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next:hover {
+    color: #292a2e;
+}
+
+.widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-prev {
+    right: 40px;
+}
+
+.widget.widget_team_members_carousel .widget-title + .owl-carousel .owl-controls .owl-nav .owl-next {
+    right: 0;
+}
+
+/* end: with title*/
+
+.tm-carousel__image {
+    margin-bottom: 20px;
+}
+
+.tm-carousel__image img {
+    border-radius: 5px;
+}
+
+.tm-carousel__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.tm-carousel__content {
+    position: relative;
+    padding: 0;
+}
+
+.tm-carousel__content .member-info {
+    text-align: left;
+}
+
+/* Team Members carousel -- Title */
+
+.tm-carousel__title {
+    font-size: 25px;
+    text-transform: uppercase;
+    /*line-height: 21px;*/
+    line-height: 26px;
+    height: 43px;
+    overflow: hidden;
+    margin-bottom: 17px;
+}
+
+.tm-carousel__title a {
+    display: block;
+    margin-top: -3px;
+}
+
+.tm-carousel__title a:hover {
+}
+
+.tm-carousel__content .member-position {
+    margin-bottom: 11px;
+}
+
+.tm-carousel__content .member-info hr {
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+
+.tm-carousel__content .member-contacts {
+    margin-bottom: 11px;
+}
+
+/* Disable: Animate/Transition */
+
+.transition--off {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+/* Animate/Transition */
+
+.transition--on {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/**
+ * Responsive and widget placements
+ */
+
+/* Footer widget */
+
+.footer .tm-carousel__title a {
+}
+
+.footer .tm-carousel__title a:hover {
+}
+
+.footer .widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-prev,
+.footer .widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-next {
+    background-color: transparent;
+    border: solid 1px #292a2e;
+    color: #292a2e;
+}
+
+.footer .widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+.footer .widget.widget_team_members_carousel .owl-carousel .owl-controls .owl-nav .owl-next:hover {
+    border: solid 1px #888888;
+    color: #888888;
+}
+
+.footer__widgets-row .widget.widget_team_members_carousel {
+    padding-bottom: 40px;
+}

@@ -1,0 +1,182 @@
+/**
+ * Timetable and Event Schedule
+ * https://wordpress.org/plugins/mp-timetable/
+ */
+
+.valeo .mptt-shortcode-wrapper .mptt-navigation-tabs {
+    font-size: 0;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-navigation-tabs li {
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 2.5455;
+    display: inline-block;
+    height: 30px;
+    padding: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 2px;
+    border: solid 1px #d3e4e8;
+    background-color: #f3f8f9;
+    color: #88adb9;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-navigation-tabs li a {
+    display: block;
+    padding: 0 10px 0 10px;
+    color: #88adb9;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-navigation-tabs li a:hover,
+.valeo .mptt-shortcode-wrapper .mptt-navigation-tabs li a:focus {
+    color: #3d6889;
+}
+
+/* table -- thead */
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table {
+    margin-bottom: 22px;
+    border: none;
+}
+
+/* table -- thead */
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tr.mptt-shortcode-row th {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.5715;
+    padding: 14px 5px;
+    border: none;
+    border-right: solid 1px #6ea6cd;
+    border-bottom: solid 1px #6ea6cd;
+    background-color: #4e8dbd;
+    color: #ffffff;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tr.mptt-shortcode-row th:first-child {
+    border-radius: 5px 0 0 0;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tr.mptt-shortcode-row th:last-child {
+    border-radius: 0 5px 0 0;
+    border-right: none;
+}
+
+/* table -- hours */
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody td.mptt-shortcode-hours {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10px 5px !important;
+    color: #3d6889;
+}
+
+/* table -- td */
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody td {
+    height: 50px;
+    height: 10px;
+
+    border: 1px solid #c1d8dd;
+    border-top: none;
+    border-right: none;
+    padding: 0;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody td:last-child {
+    border-right: 1px solid #c1d8dd;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table.mptt-theme-mode tbody td.event {
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table.mptt-theme-mode tbody tr:nth-child(even) td,
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table.mptt-theme-mode tbody tr:nth-child(even) td.event {
+    background-color: #f3f8f9;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table.mptt-theme-mode tbody tr:nth-child(odd) td,
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table.mptt-theme-mode tbody tr:nth-child(odd) td.event {
+    background-color: #ffffff;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container {
+    padding: 0 5px;
+    outline: none;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container :first-child {
+    margin-top: 10px !important;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container :last-child {
+    margin-bottom: 9px !important;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container .event-title {
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.1819;
+    text-transform: uppercase;
+    margin: 2px;
+    color: #88adb9;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container:hover .event-title {
+    text-decoration: none;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container .event-title:hover {
+    color: #3d6889;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container .event-subtitle {
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.1819;
+    margin: 2px;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container .timeslot {
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.1819;
+    margin: 2px;
+    color: #6ea6cd;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container.mptt-colorized {
+    height: auto;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container.mptt-full-height:hover {
+    background-color: #4e8dbd !important;
+    color: #ffffff !important;
+}
+
+.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container.mptt-full-height:hover * {
+    color: #ffffff !important;
+}
+
+.mptt-navigation-select {
+    max-width: 290px;
+}
+
+/**
+ * RTL
+ */
+
+.rtl.valeo .mptt-shortcode-wrapper .mptt-navigation-tabs li{margin-left:5px;margin-right: auto;}
+.rtl.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tr.mptt-shortcode-row th:first-child{border-radius:0 5px 0 0;}
+.rtl.valeo .mptt-shortcode-wrapper .mptt-shortcode-table tr.mptt-shortcode-row th:last-child{border-radius:5px 0 0 0;}

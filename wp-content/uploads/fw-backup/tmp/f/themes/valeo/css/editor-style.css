@@ -1,0 +1,524 @@
+/*
+Theme Name: Valeo
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Alignment
+ * 5.0 - Caption
+ * 6.0 - Galleries
+ * 7.0 - Audio / Video
+ * 8.0 - RTL
+ */
+
+
+/**
+ * 1.0 Body
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.2942; /* 22px */
+    color: #88adb9;
+}
+
+/**
+ * 2.0 Typography
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    text-rendering: optimizeLegibility;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 500;
+    margin: 0 0 22px 0;
+    color: #3d6889;
+}
+
+.h1, h1 {
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.h2, h2 {
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+.h3, h3 {
+    font-size: 35px;
+    line-height: 1.2572;
+}
+
+.h4, h4 {
+    font-size: 25px;
+    line-height: 1.32;
+}
+
+.h5, h5 {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.h6, h6 {
+    font-size: 17px;
+    line-height: 1.2942;
+}
+
+p {
+    margin: 0 0 22px 0;
+}
+
+b,
+strong {
+    font-weight: 700;
+    color: #3d6889;
+}
+
+span b,
+span strong {
+    color: inherit;
+}
+
+q {
+    color: #3d6889;
+}
+
+dfn,
+cite,
+em,
+i {
+    font-style: normal;
+}
+
+em {
+    font-style: italic;
+}
+
+blockquote {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.04;
+    text-align: center;
+    margin: 0 0 22px 0;
+    padding: 6px 6px 6px 6px;
+    color: #3d6889;
+
+    border: none;
+    border: 0 solid #c3d7e1;
+    border-left-width: 5px;
+}
+
+.single-fw-services blockquote,
+.page blockquote {
+    padding: 0;
+    border: none;
+}
+
+.page .sleft blockquote,
+.page .sright blockquote {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote p {
+    margin-bottom: 30px;
+}
+
+blockquote > p:last-child {
+    margin-bottom: 0;
+}
+
+blockquote cite,
+blockquote small {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.8572;
+    text-transform: uppercase;
+    margin-top: 26px;
+    color: #c3d7e1;
+}
+
+blockquote cite img,
+blockquote small img {
+    margin-right: 15px;
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+    font-style: normal;
+}
+
+blockquote strong,
+blockquote b {
+    font-weight: 600;
+}
+
+* + blockquote,
+blockquote + * {
+    margin-top: 66px;
+}
+
+address {
+    line-height: 2.1429;
+    margin: 0 0 22px;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+    font-family: Inconsolata, monospace;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    border-radius: 0;
+
+    vertical-align: middle;
+}
+
+kbd {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+code {
+    color: #3d6889;
+}
+
+pre {
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 22px;
+    padding: 15px;
+    max-width: 100%;
+    overflow: auto;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+acronym,
+abbr[title] {
+    border-bottom: 1px solid #88adb9;
+    cursor: help;
+}
+
+mark,
+ins {
+    background-color: #3d6889;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+sup,
+sub {
+    font-size: 75%;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    bottom: 1ex;
+}
+
+sub {
+    top: .5ex;
+}
+
+small {
+    font-size: 75%;
+}
+
+big {
+    font-size: 125%;
+    line-height: 100%;
+}
+
+/**
+ * 3.0 Elements
+ */
+
+hr {
+    border: 0;
+    height: 1px;
+    margin-bottom: 21px;
+    margin-top: 22px;
+    background-color: #d3e4e8;
+}
+
+ul,
+ol {
+    margin: 0 0 22px 0;
+    padding: 0 0 0 15px;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+}
+
+dl {
+    margin-bottom: 22px;
+}
+
+dt, dd {
+    line-height: 1.9412;
+}
+
+dt {
+    color: #3d6889;
+}
+
+dd {
+    margin-bottom: 22px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #d3e4e8;
+    color: #88adb9;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 44px 0;
+    table-layout: fixed; /* Prevents HTML tables from becoming too wide */
+    width: 100%;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    border-width: 0 1px 1px 0;
+    font-weight: 600;
+}
+
+td {
+    border-width: 0 1px 1px 0;
+}
+
+th, td {
+    text-align: center;
+    padding: 11px 5px 10px 5px;
+    background-color: #ffffff;
+    border-color: #d3e4e8;
+}
+
+table {
+    border-top: none;
+}
+
+thead th {
+    font-family: 'Yantramanav', sans-serif;
+    text-transform: uppercase;
+    background-color: #3d6889;
+    border-color: #3d6889;
+    color: #ffffff;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+figure {
+    margin: 0;
+    max-width: 100%;
+}
+
+del {
+    opacity: 0.8;
+}
+
+/**
+ * 4.0 Alignment
+ */
+
+.alignleft {
+	float: left;
+	margin: 11px 22px 22px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 11px 0 22px 22px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 11px auto;
+}
+
+
+/**
+ * 5.0 Caption
+ */
+
+.wp-caption {
+    font-family: "Open Sans", sans-serif;
+    text-align: inherit;
+    margin: 0 0 22px 0;
+    padding: 0;
+    max-width: 660px;
+    border: none;
+    background: transparent;
+    color: #c3d7e1;
+}
+
+.wp-caption.alignleft {
+	margin: 6px 33px 21px 0;
+}
+
+.wp-caption.alignright {
+	margin: 6px 0 21px 33px;
+}
+
+.wp-caption.aligncenter {
+	margin: 6px auto 21px auto;
+}
+
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+	font-size: 10px;
+	line-height: 1.1;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 5px 0 6px 0;
+}
+
+
+/**
+ * 6.0 Galleries
+ */
+
+.gallery {
+    margin-bottom: 22px;
+}
+
+.gallery-item {
+    display: inline-block;
+    padding: 1.79104477%;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-icon img {
+    margin: 0 auto;
+}
+
+.gallery-caption {
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    display: block;
+    padding: 5px 0 6px 0;
+    color: #c3d7e1;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+
+/**
+ * 7.0 Audio / Video
+ */
+
+.mce-content-body .wpview-wrap {
+	margin-bottom: 30px;
+}
+
+.mce-content-body .wp-audio-playlist {
+	margin: 0;
+}
+
+
+/**
+ * 8.0 RTL
+ */
+

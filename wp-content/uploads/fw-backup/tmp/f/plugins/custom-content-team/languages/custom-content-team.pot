@@ -1,0 +1,760 @@
+# Copyright (C) 2015 Custom Content Team
+# This file is distributed under the same license as the Custom Content Team package.
+msgid ""
+msgstr ""
+"Member-Id-Version: Custom Content Team 1.0.0-beta-1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/custom-content-team\n"
+"POT-Creation-Date: 2015-11-02 19:24:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-manage-members.php:135
+msgid "Sticky <span class=\"count\">(%s)</span>"
+msgid_plural "Sticky <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-manage-members.php:209 inc/functions-post-types.php:84
+#: inc/functions-post-types.php:86
+msgid "Member"
+msgstr ""
+
+#: admin/class-manage-members.php:213
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/class-manage-members.php:254 admin/class-member-edit.php:141
+#: admin/functions-admin.php:40
+msgid "Sticky"
+msgstr ""
+
+#: admin/class-manage-members.php:279
+msgid "Unstick"
+msgstr ""
+
+#: admin/class-manage-members.php:279
+msgid "Stick"
+msgstr ""
+
+#: admin/class-manage-members.php:347
+msgid "Overview"
+msgstr ""
+
+#: admin/class-manage-members.php:356
+msgid "Screen Content"
+msgstr ""
+
+#: admin/class-manage-members.php:365
+msgid "Available Actions"
+msgstr ""
+
+#: admin/class-manage-members.php:384
+msgid "This screen provides access to all of your team members. You can customize the display of this screen to suit your workflow."
+msgstr ""
+
+#: admin/class-manage-members.php:398
+msgid "You can customize the display of this screen's contents in a number of ways:"
+msgstr ""
+
+#: admin/class-manage-members.php:402
+msgid "You can hide/display columns based on your needs and decide how many members to list per screen using the Screen Options tab."
+msgstr ""
+
+#: admin/class-manage-members.php:403
+msgid "You can filter the list of members by post status using the text links in the upper left to show All, Published, Draft, or Trashed members. The default view is to show all members."
+msgstr ""
+
+#: admin/class-manage-members.php:404
+msgid "You can view members in a simple title list or with an excerpt. Choose the view you prefer by clicking on the icons at the top of the list on the right."
+msgstr ""
+
+#: admin/class-manage-members.php:405
+msgid "You can refine the list to show only members in a specific category, with a specific tag, or from a specific month by using the dropdown menus above the members list. Click the Filter button after making your selection. You also can refine the list by clicking on the member author, category or tag in the posts list."
+msgstr ""
+
+#: admin/class-manage-members.php:419
+msgid "Hovering over a row in the members list will display action links that allow you to manage your member. You can perform the following actions:"
+msgstr ""
+
+#: admin/class-manage-members.php:423
+msgid "<strong>Edit</strong> takes you to the editing screen for that member. You can also reach that screen by clicking on the member title."
+msgstr ""
+
+#: admin/class-manage-members.php:424
+msgid "<strong>Quick Edit</strong> provides inline access to the metadata of your member, allowing you to update member details without leaving this screen."
+msgstr ""
+
+#: admin/class-manage-members.php:425
+msgid "<strong>Trash</strong> removes your member from this list and places it in the trash, from which you can permanently delete it."
+msgstr ""
+
+#: admin/class-manage-members.php:426
+msgid "<strong>Pteam</strong> will show you what your draft member will look like if you publish it. View will take you to your live site to view the member. Which link is available depends on your member's status."
+msgstr ""
+
+#: admin/class-member-edit.php:141 admin/functions-admin.php:41
+msgid "Not Sticky"
+msgstr ""
+
+#: admin/class-member-edit.php:148
+msgid "Sticky: %s"
+msgstr ""
+
+#: admin/class-member-edit.php:152
+msgid "Edit"
+msgstr ""
+
+#: admin/class-member-edit.php:152
+msgid "Edit sticky status"
+msgstr ""
+
+#: admin/class-member-edit.php:157
+msgid "Stick to the team page"
+msgstr ""
+
+#: admin/class-member-edit.php:159
+msgid "OK"
+msgstr ""
+
+#: admin/class-member-edit.php:160
+msgid "Cancel"
+msgstr ""
+
+#: admin/class-member-edit.php:180
+msgid "Member Details: %s"
+msgstr ""
+
+#: admin/class-member-edit.php:277
+msgid "Title and Editor"
+msgstr ""
+
+#: admin/class-member-edit.php:286
+msgid "Member Details"
+msgstr ""
+
+#: admin/class-member-edit.php:305
+msgid "<strong>Title:</strong> Enter a title for your member. After you enter a title, you'll see the permalink below, which you can edit."
+msgstr ""
+
+#: admin/class-member-edit.php:306
+msgid "<strong>Editor:</strong> The editor allows you to add or edit content for your member. You can insert text, media, or shortcodes."
+msgstr ""
+
+#: admin/class-member-edit.php:320
+msgid "The Member Details meta box allows you to customize the details of your member. All fields are optional."
+msgstr ""
+
+#: admin/class-member-edit.php:324
+msgid "<strong>URL:</strong> The URL to the Web site or page associated with the member, such as a client Web site."
+msgstr ""
+
+#: admin/class-member-edit.php:325
+msgid "<strong>Client:</strong> The name of the client the member was built for."
+msgstr ""
+
+#: admin/class-member-edit.php:326
+msgid "<strong>Location:</strong> A physical location where the member took place (e.g., Highland Home, AL, USA)."
+msgstr ""
+
+#: admin/class-member-edit.php:327
+msgid "<strong>Start Date:</strong> The date the member began."
+msgstr ""
+
+#: admin/class-member-edit.php:328
+msgid "<strong>End Date:</strong> The date the member was completed."
+msgstr ""
+
+#: admin/class-member-edit.php:329
+msgid "<strong>Description:</strong> A short summary of the member. Some themes may show this on archive pages."
+msgstr ""
+
+#: admin/class-settings.php:53 admin/class-settings.php:283
+msgid "Team Settings"
+msgstr ""
+
+#: admin/class-settings.php:54
+msgid "Settings"
+msgstr ""
+
+#: admin/class-settings.php:84 admin/class-settings.php:312
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-settings.php:85 admin/class-settings.php:321
+msgid "Permalinks"
+msgstr ""
+
+#: admin/class-settings.php:90
+msgid "Title"
+msgstr ""
+
+#: admin/class-settings.php:91 admin/functions-admin.php:91
+#: admin/functions-admin.php:135
+msgid "Description"
+msgstr ""
+
+#: admin/class-settings.php:94
+msgid "Team Base"
+msgstr ""
+
+#: admin/class-settings.php:95
+msgid "Member Slug"
+msgstr ""
+
+#: admin/class-settings.php:96
+msgid "Category Slug"
+msgstr ""
+
+#: admin/class-settings.php:97
+msgid "Tag Slug"
+msgstr ""
+
+#: admin/class-settings.php:98
+msgid "Author Slug"
+msgstr ""
+
+#: admin/class-settings.php:117 inc/functions-options.php:139
+#: inc/functions-post-types.php:85
+msgid "Team"
+msgstr ""
+
+#: admin/class-settings.php:136
+msgid "General team settings for your site."
+msgstr ""
+
+#: admin/class-settings.php:152
+msgid "The name of your team. May be used for the team page title and other places, depending on your theme."
+msgstr ""
+
+#: admin/class-settings.php:176
+msgid "Your team description. This may be shown by your theme on the team page."
+msgstr ""
+
+#: admin/class-settings.php:190
+msgid "Set up custom permalinks for the team section on your site."
+msgstr ""
+
+#: admin/class-settings.php:290
+msgid "Update Settings"
+msgstr ""
+
+#: admin/class-settings.php:340
+msgid "<strong>Title:</strong> Allows you to set the title for the team section on your site. This is general shown on the team members archive, but themes and other plugins may use it in other ways."
+msgstr ""
+
+#: admin/class-settings.php:341
+msgid "<strong>Description:</strong> This is the description for your team. Some themes may display this on the team members archive."
+msgstr ""
+
+#: admin/class-settings.php:355
+msgid "<strong>Team Base:</strong> The primary URL for the team section on your site. It lists your team members."
+msgstr ""
+
+#: admin/class-settings.php:357
+msgid "<strong>Member Slug:</strong> The slug for single team members. You can use something custom, leave this field empty, or use one of the following tags:"
+msgstr ""
+
+#: admin/class-settings.php:359
+msgid "%s - The member author name."
+msgstr ""
+
+#: admin/class-settings.php:360
+msgid "%s - The member category."
+msgstr ""
+
+#: admin/class-settings.php:361
+msgid "%s - The member tag."
+msgstr ""
+
+#: admin/class-settings.php:364
+msgid "<strong>Category Slug:</strong> The base slug used for team category archives."
+msgstr ""
+
+#: admin/class-settings.php:365
+msgid "<strong>Tag Slug:</strong> The base slug used for team tag archives."
+msgstr ""
+
+#: admin/class-settings.php:366
+msgid "<strong>Author Slug:</strong> The base slug used for team author archives."
+msgstr ""
+
+#. Translators: 1: month, 2: day, 3: year.
+
+#: admin/fields-manager/class-control-date.php:50
+msgid "%1$s %2$s, %3$s"
+msgstr ""
+
+#: admin/fields-manager/class-control-date.php:72
+msgid "Year"
+msgstr ""
+
+#. Translators: 1: month number (01, 02, etc.), 2: month abbreviation.
+
+#: admin/fields-manager/class-control-date.php:104
+msgid "%1$s-%2$s"
+msgstr ""
+
+#: admin/fields-manager/class-control-date.php:110
+msgid "Month"
+msgstr ""
+
+#: admin/fields-manager/class-control-date.php:129
+msgid "Day"
+msgstr ""
+
+#: admin/functions-admin.php:75
+msgid "General"
+msgstr ""
+
+#: admin/functions-admin.php:83
+msgid "Date"
+msgstr ""
+
+#: admin/functions-admin.php:101
+msgid "URL"
+msgstr ""
+
+#: admin/functions-admin.php:102
+msgid "Enter the URL of the member Web page."
+msgstr ""
+
+#: admin/functions-admin.php:107
+msgid "Jane Doe"
+msgstr ""
+
+#: admin/functions-admin.php:108
+msgid "Client"
+msgstr ""
+
+#: admin/functions-admin.php:109
+msgid "Enter the name of the client for the member."
+msgstr ""
+
+#: admin/functions-admin.php:114
+msgid "Highland Home, AL"
+msgstr ""
+
+#: admin/functions-admin.php:115
+msgid "Location"
+msgstr ""
+
+#: admin/functions-admin.php:116
+msgid "Enter the physical location of the member."
+msgstr ""
+
+#: admin/functions-admin.php:121
+msgid "Start Date"
+msgstr ""
+
+#: admin/functions-admin.php:122
+msgid "Select the date the member began."
+msgstr ""
+
+#: admin/functions-admin.php:127
+msgid "End Date"
+msgstr ""
+
+#: admin/functions-admin.php:128
+msgid "Select the date the member was completed."
+msgstr ""
+
+#: admin/functions-admin.php:136
+msgid "Write a short description (excerpt) of the member."
+msgstr ""
+
+#: admin/functions-admin.php:230
+msgid "Documentation"
+msgstr ""
+
+#: admin/functions-admin.php:231
+msgid "Support Forums"
+msgstr ""
+
+#: admin/functions-admin.php:236
+msgid "For more information:"
+msgstr ""
+
+#: inc/functions-filters.php:124
+msgid "Visit Member"
+msgstr ""
+
+#: inc/functions-filters.php:125
+msgid "Client: %s"
+msgstr ""
+
+#: inc/functions-filters.php:126
+msgid "Location: %s"
+msgstr ""
+
+#: inc/functions-filters.php:127
+msgid "Started: %s"
+msgstr ""
+
+#: inc/functions-filters.php:128
+msgid "Completed: %s"
+msgstr ""
+
+#: inc/functions-post-types.php:83 inc/functions-post-types.php:95
+msgid "Members"
+msgstr ""
+
+#: inc/functions-post-types.php:87 inc/functions-post-types.php:90
+msgid "New Member"
+msgstr ""
+
+#: inc/functions-post-types.php:88
+msgid "Add New Member"
+msgstr ""
+
+#: inc/functions-post-types.php:89
+msgid "Edit Member"
+msgstr ""
+
+#: inc/functions-post-types.php:91
+msgid "View Member"
+msgstr ""
+
+#: inc/functions-post-types.php:92
+msgid "Search Members"
+msgstr ""
+
+#: inc/functions-post-types.php:93
+msgid "No members found"
+msgstr ""
+
+#: inc/functions-post-types.php:94
+msgid "No members found in trash"
+msgstr ""
+
+#: inc/functions-post-types.php:96
+msgid "Member Image"
+msgstr ""
+
+#: inc/functions-post-types.php:97
+msgid "Set member image"
+msgstr ""
+
+#: inc/functions-post-types.php:98
+msgid "Remove member image"
+msgstr ""
+
+#: inc/functions-post-types.php:99
+msgid "Use as member image"
+msgstr ""
+
+#: inc/functions-post-types.php:100
+msgid "Insert into member"
+msgstr ""
+
+#: inc/functions-post-types.php:101
+msgid "Uploaded to this member"
+msgstr ""
+
+#: inc/functions-post-types.php:102
+msgid "Filter members list"
+msgstr ""
+
+#: inc/functions-post-types.php:103
+msgid "Members list navigation"
+msgstr ""
+
+#: inc/functions-post-types.php:104
+msgid "Members list"
+msgstr ""
+
+#: inc/functions-post-types.php:183
+msgid "Enter member title"
+msgstr ""
+
+#. Translators: Scheduled member date format. See http:php.net/date
+
+#: inc/functions-post-types.php:209
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: inc/functions-post-types.php:212 inc/functions-post-types.php:213
+msgid "Pteam member"
+msgstr ""
+
+#: inc/functions-post-types.php:214
+msgid "View member"
+msgstr ""
+
+#: inc/functions-post-types.php:218 inc/functions-post-types.php:219
+msgid "Member updated."
+msgstr ""
+
+#. Translators: %s is the date and time of the revision.
+
+#: inc/functions-post-types.php:221
+msgid "Member restored to revision from %s."
+msgstr ""
+
+#: inc/functions-post-types.php:222
+msgid "Member published."
+msgstr ""
+
+#: inc/functions-post-types.php:223
+msgid "Member saved."
+msgstr ""
+
+#: inc/functions-post-types.php:224
+msgid "Member submitted."
+msgstr ""
+
+#: inc/functions-post-types.php:225
+msgid "Member scheduled for: %s."
+msgstr ""
+
+#: inc/functions-post-types.php:226
+msgid "Member draft updated."
+msgstr ""
+
+#: inc/functions-post-types.php:245
+msgid "%s member updated."
+msgid_plural "%s members updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-post-types.php:246
+msgid "%s member not updated, somebody is editing it."
+msgid_plural "%s members not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-post-types.php:247
+msgid "%s member permanently deleted."
+msgid_plural "%s members permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-post-types.php:248
+msgid "%s member moved to the Trash."
+msgid_plural "%s members moved to the trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-post-types.php:249
+msgid "%s member restored from the Trash."
+msgid_plural "%s members restored from the trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions-taxonomies.php:91 inc/functions-taxonomies.php:93
+msgid "Categories"
+msgstr ""
+
+#: inc/functions-taxonomies.php:92 inc/functions-taxonomies.php:94
+msgid "Category"
+msgstr ""
+
+#: inc/functions-taxonomies.php:95
+msgid "Search Categories"
+msgstr ""
+
+#: inc/functions-taxonomies.php:96
+msgid "Popular Categories"
+msgstr ""
+
+#: inc/functions-taxonomies.php:97
+msgid "All Categories"
+msgstr ""
+
+#: inc/functions-taxonomies.php:98
+msgid "Edit Category"
+msgstr ""
+
+#: inc/functions-taxonomies.php:99
+msgid "View Category"
+msgstr ""
+
+#: inc/functions-taxonomies.php:100
+msgid "Update Category"
+msgstr ""
+
+#: inc/functions-taxonomies.php:101
+msgid "Add New Category"
+msgstr ""
+
+#: inc/functions-taxonomies.php:102
+msgid "New Category Name"
+msgstr ""
+
+#: inc/functions-taxonomies.php:103
+msgid "No categories found."
+msgstr ""
+
+#: inc/functions-taxonomies.php:104
+msgid "No categories"
+msgstr ""
+
+#: inc/functions-taxonomies.php:105
+msgid "Categories list navigation"
+msgstr ""
+
+#: inc/functions-taxonomies.php:106
+msgid "Categories list"
+msgstr ""
+
+#: inc/functions-taxonomies.php:109
+msgid "Select Category"
+msgstr ""
+
+#: inc/functions-taxonomies.php:110
+msgid "Parent Category"
+msgstr ""
+
+#: inc/functions-taxonomies.php:111
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/functions-taxonomies.php:127 inc/functions-taxonomies.php:129
+msgid "Tags"
+msgstr ""
+
+#: inc/functions-taxonomies.php:128 inc/functions-taxonomies.php:130
+msgid "Tag"
+msgstr ""
+
+#: inc/functions-taxonomies.php:131
+msgid "Search Tags"
+msgstr ""
+
+#: inc/functions-taxonomies.php:132
+msgid "Popular Tags"
+msgstr ""
+
+#: inc/functions-taxonomies.php:133
+msgid "All Tags"
+msgstr ""
+
+#: inc/functions-taxonomies.php:134
+msgid "Edit Tag"
+msgstr ""
+
+#: inc/functions-taxonomies.php:135
+msgid "View Tag"
+msgstr ""
+
+#: inc/functions-taxonomies.php:136
+msgid "Update Tag"
+msgstr ""
+
+#: inc/functions-taxonomies.php:137
+msgid "Add New Tag"
+msgstr ""
+
+#: inc/functions-taxonomies.php:138
+msgid "New Tag Name"
+msgstr ""
+
+#: inc/functions-taxonomies.php:139
+msgid "No tags found."
+msgstr ""
+
+#: inc/functions-taxonomies.php:140
+msgid "No tags"
+msgstr ""
+
+#: inc/functions-taxonomies.php:141
+msgid "Tags list navigation"
+msgstr ""
+
+#: inc/functions-taxonomies.php:142
+msgid "Tags list"
+msgstr ""
+
+#: inc/functions-taxonomies.php:145
+msgid "Separate tags with commas"
+msgstr ""
+
+#: inc/functions-taxonomies.php:146
+msgid "Add or remove tags"
+msgstr ""
+
+#: inc/functions-taxonomies.php:147
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: inc/functions-taxonomies.php:225
+msgid "Category added."
+msgstr ""
+
+#: inc/functions-taxonomies.php:226
+msgid "Category deleted."
+msgstr ""
+
+#: inc/functions-taxonomies.php:227
+msgid "Category updated."
+msgstr ""
+
+#: inc/functions-taxonomies.php:228
+msgid "Category not added."
+msgstr ""
+
+#: inc/functions-taxonomies.php:229
+msgid "Category not updated."
+msgstr ""
+
+#: inc/functions-taxonomies.php:230
+msgid "Categories deleted."
+msgstr ""
+
+#: inc/functions-taxonomies.php:236
+msgid "Tag added."
+msgstr ""
+
+#: inc/functions-taxonomies.php:237
+msgid "Tag deleted."
+msgstr ""
+
+#: inc/functions-taxonomies.php:238
+msgid "Tag updated."
+msgstr ""
+
+#: inc/functions-taxonomies.php:239
+msgid "Tag not added."
+msgstr ""
+
+#: inc/functions-taxonomies.php:240
+msgid "Tag not updated."
+msgstr ""
+
+#: inc/functions-taxonomies.php:241
+msgid "Tags deleted."
+msgstr ""
+
+#: team.php:128 team.php:139
+msgid "Whoah, partner!"
+msgstr ""
+
+#: team.php:150
+msgid "Method does not exist."
+msgstr ""
+
+#: uninstall.php:14
+msgid "%s should only be called when uninstalling the plugin."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Custom Content Team"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://themehybrid.com/plugins/custom-content-team"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Team manager for WordPress.  This plugin allows you to manage, edit, and create new team items in an unlimited number of teams."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Justin Tadlock"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themehybrid.com"
+msgstr ""

@@ -1,0 +1,39 @@
+.mce-window.mce-container.mce-dtr-tinymce-modal .mce-container-body.mce-abs-layout { overflow: hidden; }
+.mce-ico.mce-i-nsc-tinymce-icon { background: url("'.$icon.'") no-repeat; }
+.mce-container .wp-picker-container { display: inline-block; margin: 10px; }
+.mce-container .wp-picker-input-wrap input.mce-colorpicker { width: 65px !important; position: static !important; float: left; margin: 0; line-height: 1; }
+.mce-container .wp-color-result { background-color: #f7f7f7; border: 1px solid #ccc; border-radius: 3px; box-shadow: 0 1px 0 #ccc; cursor: pointer; display: inline-block; height: 22px; margin: 0 6px 6px 0; padding-left: 30px; position: relative; top: 1px; vertical-align: bottom; }
+.mce-formitem .mce-container-body.mce-abs-layout { overflow: visible !important; }
+.mce-container .wp-picker-container { float: right !important; display: block; margin: 0 !important; padding-bottom: 10px !important; }
+.mce-container .wp-picker-holder { background: #f7f7f7 !important; z-index: 99999 !important; position: absolute !important; overflow: visible !important; right: 0; }
+.mce-container .iris-picker { padding: 5px 10px 20px 10px !important; }
+
+/*tinymce css*/
+#dialogwindow { font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 10px; height: 30px; }
+#dialogwindow form p { margin: 10px 0 0 0 !important; padding: 0 !important; }
+#dialogwindow label { width: 110px; display: inline-block; float: left; margin-right: 10px; font-weight: bold; }
+#dialogwindow select, #dialogwindow input { width: 300px; padding: 8px; display: inline-block; }
+#dialogwindow select { width: 318px; }
+#dialogwindow textarea { width: 300px; padding: 8px; display: inline-block; }
+#dialogwindow textarea { height: 100px; }
+#dialogwindow input[type='checkbox'] { width: auto; padding: 0; display: inline-block; margin: 0 5px 0 0; }
+.sc-note { font-size: 11px; margin: 0 0 10px 0 !important; padding-left: 120px; color: #aaa; }
+.sc-title h1 { font-size: 22px; color: #000; margin-bottom: 20px; }
+.clearfix { *zoom: 1;
+}
+.clearfix:before, .clearfix:after { display: table; line-height: 0; content: ""; }
+.clearfix:after { clear: both; }
+.mceListBox { direction:ltr; width:200px; }
+.bold-note { font-weight: bold !important; margin: 20px 0; }
+.mybtn, .mybtn-small { background: #0073aa; padding: 10px 15px; margin: 10px 10px 20px 120px !important; font-size: 12px; color: #fff !important; text-transform: uppercase; line-height: 1em; font-weight: 600; border: none; cursor: pointer; display: inline-block; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; float: right; text-decoration: none; }
+.mce-btn.mce-primary button { box-shadow: none; }
+.mce-menubar .mce-menubtn:focus { box-shadow: none; }
+input.mce-textbox { box-shadow: none; }
+.mybtn:hover, .mybtn-small:hover { background: #222; color: #fff !important; }
+.mybtn-small { font-size: 10px; padding: 8px 15px; }
+.dtr-icon-list { list-style-type: none !important; padding: 0; margin: 0; }
+.dtr-icon-list li { list-style: none; float: left !important; width: 40%; padding: 10px; }
+.get-icon-name { margin-left: 20px; }
+.mce-label { font-weight: bold !important; }
+.mce-ico.mce-i-checkbox { margin-right: 15px; }
+.mce-container-body small { font-size: 11px; }

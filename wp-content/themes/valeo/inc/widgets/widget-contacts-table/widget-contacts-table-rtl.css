@@ -1,0 +1,41 @@
+ul.widget-contacts-table {
+    padding-left: initial;
+    padding-right: 0;
+}
+
+ul.widget-contacts-table li {
+    padding: 0 24px 0 0;
+}
+
+ul.widget-contacts-table li span[class^="flaticon-"],
+ul.widget-contacts-table li span[class*=" flaticon-"],
+ul.widget-contacts-table li span[class^="flaticon-"],
+ul.widget-contacts-table li span[class*=" flaticon-"] {
+    left: auto;
+    right: 0;
+}
+
+ul.widget-contacts-table li span[class^="flaticon-"]:before,
+ul.widget-contacts-table li span[class*=" flaticon-"]:before,
+ul.widget-contacts-table li span[class^="flaticon-"]:after,
+ul.widget-contacts-table li span[class*=" flaticon-"]:after {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.widget-contacts-table-social .social-navigation {
+    padding-left: initial;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: -5px;
+}
+
+.widget-contacts-table-social .social-navigation a {
+    margin-right: auto;
+    margin-left: 12px;
+}
+
+.widget-contacts-table-social .social-navigation a:after {
+    left: -7px;
+    right: auto;
+}

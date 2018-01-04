@@ -1,0 +1,243 @@
+/**
+ * Recent posts slider
+ */
+
+.owl-widget-single {
+}
+
+.posts-slider.owl-carousel .owl-dots .owl-dot span {
+    border: solid 2px #ffffff;
+    background: transparent;
+    /*-webkit-box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.75);*/
+    /*-moz-box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.75);*/
+    /*box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.75);*/
+}
+
+.posts-slider.owl-carousel .owl-dots .owl-dot.active span,
+.posts-slider.owl-carousel .owl-dots .owl-dot:hover span {
+    border: solid 2px #ffffff;
+    background: #ffffff;
+}
+
+.posts-slider {
+    position: relative;
+}
+
+.posts-slider__slide {
+}
+
+.posts-slider__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+/* Recent posts slider -- image */
+
+.posts-slider__image {
+    position: relative;
+    overflow: hidden;
+}
+
+.posts-slider__overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(50, 50, 50, 0.3);
+}
+
+.posts-slider:hover .posts-slider__overlay {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+.posts-slider__overlay + img {
+    visibility: hidden;
+}
+
+/* Recent posts slider -- title */
+
+.posts-slider__title {
+    font-family: 'Yantramanav', sans-serif;
+    display: block;
+}
+
+.posts-slider__title a {
+    font-size: 35px;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2572;
+    text-transform: uppercase;
+    max-width: 100%;
+    color: #ffffff;
+}
+
+.posts-slider__title a:hover,
+.posts-slider__title a:active,
+.posts-slider__title a:focus {
+    color: #adadad;
+}
+
+/* Recent posts slider -- meta */
+
+.posts-slider__category {
+    font-family: 'Yantramanav', sans-serif;
+    display: block;
+    text-align: center;
+    width: 100%;
+    line-height: 0;
+}
+
+.posts-slider__category a {
+    display: inline-block;
+    font-size: 12px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 4px 16px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    background-color: #71ba09;
+    color: #ffffff;
+}
+
+.posts-slider__category a:hover {
+    background-color: #ffffff;
+    color: #1e1e1e;
+}
+
+.posts-slider__date {
+    display: block;
+    font-size: 11px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 2;
+    text-transform: uppercase;
+    margin-top: 11px;
+    color: #ffffff;
+}
+
+/* Recent posts slider -- next, prev */
+
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-next {
+    right: 0;
+}
+
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-prev,
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding: 0;
+    margin-top: -25px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-next:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.posts-slider.owl-carousel .owl-controls {
+    margin-top: 0;
+}
+
+.posts-slider.owl-carousel .owl-controls .owl-nav {
+    position: initial;
+    -webkit-transform: initial;
+    -ms-transform: initial;
+    transform: initial;
+}
+
+.posts-slider__icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 60px;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: -7px;
+    color: #f6f6f6;
+}
+
+/* Recent posts slider -- helpers classes */
+
+.posts-slider__table {
+    display: table !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.posts-slider__cell {
+    display: table-cell !important;
+    vertical-align: middle !important;
+}
+
+/* Font family */
+
+.posts-slider__title a,
+.posts-slider__category,
+.posts-slider__date,
+.font-family--yantramanav {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+/* Animate/Transition */
+
+.posts-slider .posts-slider__overlay,
+.posts-slider:hover .posts-slider__overlay,
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-prev,
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-next,
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-prev:hover,
+.posts-slider.owl-carousel .owl-controls .owl-nav .owl-next:hover,
+.transition--on {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/* Disable: Animate/Transition */
+
+.transition--off {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+/**
+ * Responsive and widget placements
+ */
+
+.sidebar-before-content .owl-carousel.posts-slider .item.posts-slider__slide {
+    max-height: 600px;
+}
+
+.widget-width__side .posts-slider.owl-carousel .owl-controls,
+.widget-width__side .posts-slider.owl-carousel .owl-dots .owl-dot {
+    /*display: none;*/
+}
+
+.widget-width__side .posts-slider.owl-carousel .owl-dots {
+    bottom: 0;
+}
+
+.widget-width__side .posts-slider.owl-carousel .owl-controls .owl-nav .owl-prev,
+.widget-width__side .posts-slider.owl-carousel .owl-controls .owl-nav .owl-next {
+    top: auto;
+    bottom: 6px;
+}
+
+.widget-width__side .owl-carousel .owl-controls .owl-nav .owl-prev {
+    margin-left: 6px;
+}
+
+.widget-width__side .owl-carousel .owl-controls .owl-nav .owl-next {
+    margin-right: 6px;
+}

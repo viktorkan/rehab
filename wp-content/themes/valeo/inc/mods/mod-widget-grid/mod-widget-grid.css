@@ -1,0 +1,33 @@
+.mod-widget-grid > [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mod-widget-grid > [class*="col-"].mod-widget-grid--offset-top {
+    margin-top: 30px;
+}
+
+.mod-widget-grid > [class*="col-"].mod-widget-grid--offset-left {
+    padding-left: 15px;
+}
+
+.mod-widget-grid > [class*="col-"].mod-widget-grid--offset-right {
+    padding-right: 15px;
+}
+
+/* Widget sidebars */
+
+#secondary .widget,
+.footer-widgets .widget {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.sidebar-before-header .mod-widget-grid,
+.sidebar-after-header .mod-widget-grid,
+.sidebar-before-loop .mod-widget-grid,
+.sidebar-before-footer > .mod-widget-grid {
+    margin-right: 0;
+    margin-left: 0;
+}
